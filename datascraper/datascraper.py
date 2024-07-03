@@ -25,7 +25,11 @@ espn = "https://www.espn.com"
 espn_team = "https://www.espn.com/nba/teams"
 # to get birth dates and locations of players
 birth_link = "https://www.basketball-reference.com/players/"
+# to get coaching data
+coach_link = "https://www.basketball-reference.com/coaches/"
+coach_link_base = "https://www.basketball-reference.com/"
 
+# calculates age Int provided birthDate Date object
 def calculateAge(birthDate):
     age = today.year - birthDate.year - ((today.month, today.day) < (birthDate.month, birthDate.day))
     return age
@@ -85,12 +89,41 @@ def getRosteredPlayers():
             if len(names) > 2:
                 lname += names[2]
             # link is first letter of last name / first 5 of last + first 2 of first + 01 (or other index maybe)
-            player_link = str(lname)[:1] + "/" + str(lname.replace("'", ""))[:5] + str(fname.replace(".", "").replace("'", ""))[:2]
+            player_link = str(lname)[:1] + "/" + str(lname.replace("'", "").replace("-", ""))[:5] + str(fname.replace(".", "").replace("'", ""))[:2]
+            
+            # fixing random discrepancies
             if name == "KJ Martin":
                 # for some reason they use Kenyon which messes all this up so I'm just manually casing for that
                 player_link = "m/martike"
+            elif name == "Sasha Vezenkov":
+                # they use aleks (his real name) instead of sasha for the link
+                player_link = "v/vezenal"
+            elif name == "Taylor Hendricks":
+                # they just randomly used 6 letters in the last name for this one idek
+                player_link = "h/hendrita"
+            elif name == "Bub Carrington":
+                # this will probably get fixed at some point
+                name = "Carlton Carrington"
+                player_link = "c/carrica"
+            elif name == "Clint Capela":
+                # this is just plain wrong tbh
+                player_link = "c/capelca"
+            elif name == "Maxi Kleber":
+                # this is also just wrong...
+                player_link = "k/klebima"
+            elif name == "Cedi Osman":
+                # also WRONG!!!!
+                player_link = "o/osmande"
+            elif name == "David Duke Jr.":
+                # randomly 4 length last name
+                player_link = "d/dukeda"
+
             # get player birth date and location (from bball ref)
             soup = BeautifulSoup(requests.get(birth_link + player_link + "01.html").content, "html.parser")
+
+            # this one actually kind of makes sense but he should be 01 and not 02
+            if name == "Bronny James" or name == "Devin Carter":
+                soup = BeautifulSoup(requests.get(birth_link + player_link + "02.html").content, "html.parser")
 
             # DONT CONTINUE IF PLAYER IS NOT BBALL REF'D
             if soup.find("div", id="meta") is None:
@@ -160,7 +193,9 @@ def getRosteredPlayers():
     df = pd.DataFrame(data)
     cols = ["Team", "Name", "Jersey", "Position", "Height (ft)", "Weight (lb)", "Salary", "Age", "Birth Date", "Birth Location"]
     df.columns = cols
-    df.to_csv("rostered-players.csv")
+    if not os.path.exists("data"):
+        os.mkdir("data")
+    df.to_csv("data/rostered-players.csv")
     os.remove("temp.csv")
 
 def getFreeAgents():
@@ -210,6 +245,15 @@ def getFreeAgents():
         if len(names) > 2:
             lname += names[2]
         player_link = str(lname)[:1] + "/" + str(lname)[:5] + str(fname.replace(".", "").replace("'", ""))[:2]
+        
+        # fixing random discrepancies
+        if name == "Cedi Osman":
+            # WRONG!!!!
+            player_link = "o/osmande"
+        elif name == "David Duke Jr.":
+            # randomly 4 length last name
+            player_link = "d/dukeda"
+
         soup = BeautifulSoup(requests.get(birth_link + player_link + "01.html").content, "html.parser")
 
         # DONT CONTINUE IF PLAYER IS NOT BBALL REF'D
@@ -274,36 +318,107 @@ def getFreeAgents():
     cols = ["Team", "Name", "Jersey", "Position", "Height (ft)", "Weight (lb)", "Salary", "Age", "Birth Date", "Birth Location"]
 
     df.columns = cols
-    df.to_csv("free-agents.csv")
+    if not os.path.exists("data"):
+        os.mkdir("data")
+    df.to_csv("data/free-agents.csv")
     os.remove("temp.csv")
+
+def getCoaches():
+    headers = { "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" }
+    soup = BeautifulSoup(requests.get(coach_link, headers=headers).content, "html.parser")
+
+    # get full table
+    rows = soup.find("table", id="coaches").find("tbody").find_all("tr")
+    data = []
+    for row in rows:
+        coach = []
+        # only get data for modern coaches
+        test = row.find("td", {"data-stat": "year_max"})
+        if test is not None and int(test.text) >= 2022:
+            coach.append("FA") # team (will fill in manually ig)
+            coach.append(row.find("th").find("a").text) # name
+            print("   --- " + coach[1])
+
+            new_link = row.find("th").find("a", href=True)["href"]
+            soup = BeautifulSoup(requests.get(coach_link_base + new_link, headers=headers).content, "html.parser")
+            if soup.find("span", id="necro-birth") is None:
+                print("   --- Cannot find coach page...")
+                continue
+            
+            birth = soup.find("span", id="necro-birth").find_parent()
+            birthday = birth.find("span", id="necro-birth")["data-birth"]
+            coach.append(calculateAge(datetime.strptime(birthday, "%Y-%m-%d").date())) # age
+            coach.append(birthday)
+            coach.append(str(birth.text).split("in ")[1]) # place of birth
+
+            data.append(coach)
+            time.sleep(3)
+
+    df = pd.DataFrame(data)
+    cols = ["Team", "Name", "Age", "Birth Date", "Birth Location"]
+
+    df.columns = cols
+    if not os.path.exists("data"):
+        os.mkdir("data")
+    df.to_csv("data/coaches.csv")
+
+def combinePlayerData():
+    if not os.path.exists("data"):
+        os.mkdir("data")
+    rostered_df = pd.read_csv("data/rostered-players.csv", index_col=0)
+    fa_df = pd.read_csv("data/free-agents.csv", index_col=0)
+
+    free_agents = fa_df["Name"].tolist()
+    players = rostered_df[~rostered_df["Name"].isin(free_agents)]
+    players = pd.concat([players, fa_df])
+    players.to_csv("data/all_players.csv")
 
 def refreshData():
     print("Loading player roster/birthday data")
     print("--- Getting all Current Roster data")
-    if not os.path.isfile("rostered-players.csv"):
+    if not os.path.isfile("data/rostered-players.csv"):
         getRosteredPlayers()
     else:
         # allow overwrite to update data
         print("   --- Found existing rostered player data file.")
-        response = input("   --- Would you like to overwrite this? (y/n)")
+        response = input("   --- Would you like to overwrite this? (y/n)\n   ")
         while response not in ["y", "n"]:
-            response = input("   --- Would you like to overwrite this? (y/n)")
+            response = input("   --- Would you like to overwrite this? (y/n)\n   ")
 
         if response == "y":
             getRosteredPlayers()
 
     print("--- Getting all Free Agent data")
-    if not os.path.isfile("free-agents.csv"):
+    if not os.path.isfile("data/free-agents.csv"):
         getFreeAgents()
     else:
         # allow overwrite to update data
         print("   --- Found existing free agent data file.")
-        response = input("   --- Would you like to overwrite this? (y/n)")
+        response = input("   --- Would you like to overwrite this? (y/n)\n   ")
         while response not in ["y", "n"]:
-            response = input("   --- Would you like to overwrite this? (y/n)")
+            response = input("   --- Would you like to overwrite this? (y/n)\n   ")
 
         if response == "y":
             getFreeAgents()
+
+    print("--- Getting coach data")
+    if not os.path.isfile("data/coaches.csv"):
+        getCoaches()
+    else:
+        # allow overwrite to update data
+        print("   --- Found existing coach data file.")
+        response = input("   --- Would you like to overwrite this? (y/n)\n   ")
+        while response not in ["y", "n"]:
+            response = input("   --- Would you like to overwrite this? (y/n)\n   ")
+
+        if response == "y":
+            getCoaches()
+
+    choice = input("--- Would you like to combine the free agent and rostered player data? [y/n]\n   ")
+    while choice not in ["y", "n"]:
+        choice = input("--- Would you like to combine the free agent and rostered player data? [y/n]\n   ")
+    if choice == "y":
+        combinePlayerData()
     print("Completed!")
 
 refreshData()
