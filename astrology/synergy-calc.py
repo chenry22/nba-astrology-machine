@@ -16,7 +16,7 @@ team_abbreviatons = {
     "BOS" : "Boston Celtics", "BKN" : "Brooklyn Nets", "NY" : "New York Knicks"
 }
 
-df = pd.read_csv("../datascraper/data/all_players.csv", index_col=0)
+df = pd.read_csv("../datascraper/data/player-roles.csv", index_col=0)
 
 # converts synergy score to letter grade string
 def scoreToLetter(score):
@@ -78,7 +78,7 @@ def getProfile(player, v=True):
     birth_month = int(player[8].split("-")[1])
     birth_day = int(player[8].split("-")[2])
     city = player[9].split(", ")[0]
-    profile = AstrologicalSubject(name, birth_year, birth_month, birth_day, 0, 0, city, geonames_username="chenry22")
+    profile = AstrologicalSubject(name, birth_year, birth_month, birth_day, 12, 0, city, geonames_username="chenry22")
     return profile
 
 # returns RelationshipScore object from two player Series objects
@@ -111,7 +111,7 @@ def getSynergy(player1, player2, chart=False, v=True):
     # player: Series object with appropriate data
     # team: String of team abbreviation
 # returns: list of synergy scores
-def getPlayerTeamSynergy(player, team, v=True):
+def getPlayerTeamSynergy(player, team, v=True, starters=False, bench=False):
     # no team synergy of free agency group
     if team == "FA":
         print("*** Free Agents are not on a team.")
@@ -121,7 +121,15 @@ def getPlayerTeamSynergy(player, team, v=True):
         return
 
     # get list of all players on team
-    players = df[df["Team"] == team]["Name"].tolist()
+    if starters:
+        starting = df[df["Role"] == "Starter"]
+        players = starting[starting["Team"] == team]["Name"].tolist()
+    elif bench:
+        benched = df[df["Role"] == "Bench"]
+        players = benched[benched["Team"] == team]["Name"].tolist()
+    else: 
+        players = df[df["Team"] == team]["Name"].tolist()
+
     # for every player, calculate synergy match score
     scores = []
     for teammate in players:
@@ -149,7 +157,7 @@ def getPlayerTeamSynergy(player, team, v=True):
 
 # calculates average synergy of team and generates a report (csv)
     # returns list of average synergy scores of each player
-def getTeamSynergy(team, v=True):
+def getTeamSynergy(team, v=True, starters=False, bench=False):
     # make all caps
     team = str(team).upper()
     if df[df["Team"] == team].values[0] is None:
@@ -158,9 +166,17 @@ def getTeamSynergy(team, v=True):
     
     # get list of all players on team
     team_scores = []
-    players = df[df["Team"] == team]["Name"].tolist()
+    if starters:
+        starting = df[df["Role"] == "Starter"]
+        players = starting[starting["Team"] == team]["Name"].tolist()
+    elif bench:
+        benched = df[df["Role"] == "Bench"]
+        players = benched[benched["Team"] == team]["Name"].tolist()
+    else:
+        players = df[df["Team"] == team]["Name"].tolist()
+
     for player in players:
-        scores = getPlayerTeamSynergy(df.loc[df["Name"] == player].values[0], team, v=False)
+        scores = getPlayerTeamSynergy(df.loc[df["Name"] == player].values[0], team, v=False, starters=starters, bench=bench)
         for_avg = scores.copy()
         for_avg.remove(-1)
         scores.insert(0, player)
@@ -173,10 +189,11 @@ def getTeamSynergy(team, v=True):
     cols.append("Average")
     team_df.columns = cols
 
-    # save output to csv file
-    if not os.path.exists("tables"):
-        os.mkdir("tables")
-    team_df.to_csv("tables/" + team + ".csv")
+    # save output to csv file (if not just starters or bench)
+    if not starters and not bench:
+        if not os.path.exists("tables"):
+            os.mkdir("tables")
+        team_df.to_csv("tables/" + team + ".csv")
 
     avg_scores = team_df["Average"].tolist()
     if v:
@@ -191,11 +208,12 @@ def getTeamSynergy(team, v=True):
             print("      " + str(i + 1) + ". " + str(best_scores[i]))
     return avg_scores
 
-def getAllTeamsSynergy():
+# calculates total synergy report for all teams
+def getAllTeamsSynergy(starters=False, bench=False):
     league_scores = []
     for team in team_abbreviatons.keys():
         team_arr = [team]
-        temp = getTeamSynergy(team, v=False) # returns list of individual scores
+        temp = getTeamSynergy(team, v=False, starters=starters, bench=bench) # returns list of individual scores
         team_arr.append(len(temp)) # num players
         team_arr.append(scoreToLetter(np.average(temp))) # avg grade
         team_arr.append(round(np.average(temp), 2)) # avg score
@@ -208,9 +226,17 @@ def getAllTeamsSynergy():
     league_df = pd.DataFrame(league_scores)
     cols = ["Team", "Players", "Grade", "Average", "Max", "Min", "Median"]
     league_df.columns = cols
-    league_df.to_csv("tables/all_team_scores.csv")
-    # print some ouput
-    print("*** League Synergy ***")
+
+    if starters:
+        print("*** Team Starters Synergies ***")
+    elif bench:
+        print("*** Team Bench Synergies ***")
+    else: 
+        # only save if all data compiled
+        league_df.to_csv("tables/all_team_scores.csv")
+        # print some ouput
+        print("*** Team Synergies ***")
+    
     sorted_scores = sorted(zip(league_df["Team"].tolist(), league_df["Grade"].tolist(), league_df["Average"].tolist()), reverse=True, key=lambda x : x[2])
     for i in range(len(sorted_scores)):
         print("   " + str(i + 1) + ". " + str(sorted_scores[i]))
@@ -260,16 +286,22 @@ def parseInput(str_in):
             getTeamSynergy(team)
         case "4":
             getAllTeamsSynergy()
+        case "5":
+            getAllTeamsSynergy(starters=True)
+        case "6":
+            getAllTeamsSynergy(bench=True)
         case _:
             print("~Bad input. Failed to parse~")
 
-# -- MAIN --
+# --- MAIN ---
 while True:
     print("== Enter '0' to load a player profile ==")
     print("== '1' to match two player profiles ==")
     print("== '2' to get the team synergy of a player ==")
     print("== '3' to get the synergy of a whole team ==")
     print("== '4' to generate a synergy report of all teams ==")
+    print("== '5' to generate a synergy report of each starting lineup ==")
+    print("== '6' to generate a synergy report of each bench unit ==")
     print("== or 'x' to exit ==")
     choice = input("   ")
     if choice == "x":

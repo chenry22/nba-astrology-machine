@@ -1,13 +1,19 @@
-,Name,Christian Braun,Aaron Gordon,DaRon Holmes II,Nikola Jokic,DeAndre Jordan,Jamal Murray,Zeke Nnaji,Jalen Pickett,Michael Porter Jr.,Julian Strawther,Hunter Tyson,Peyton Watson,Average
-0,Christian Braun,-1,24,16,24,44,24,21,28,13,44,28,20,26.0
-1,Aaron Gordon,24,-1,20,12,16,25,20,16,20,24,40,41,23.45
-2,DaRon Holmes II,16,20,-1,28,20,20,16,20,20,20,20,32,21.09
-3,Nikola Jokic,24,12,28,-1,16,28,24,16,16,20,24,20,20.73
-4,DeAndre Jordan,44,16,20,16,-1,16,36,32,17,24,20,16,23.36
-5,Jamal Murray,24,25,20,28,16,-1,28,20,36,16,25,25,23.91
-6,Zeke Nnaji,21,20,16,24,36,28,-1,21,25,17,16,20,22.18
-7,Jalen Pickett,28,16,20,16,32,20,21,-1,21,32,12,24,22.0
-8,Michael Porter Jr.,13,20,20,16,17,36,25,21,-1,25,16,32,21.91
-9,Julian Strawther,44,24,20,20,24,16,17,32,25,-1,32,20,24.91
-10,Hunter Tyson,28,40,20,24,20,25,16,12,16,32,-1,40,24.82
-11,Peyton Watson,20,41,32,20,16,25,20,24,32,20,40,-1,26.36
+,Name,Trey Alexander,Christian Braun,Vlatko Cancar,Aaron Gordon,PJ Hall,DaRon Holmes II,Nikola Jokic,Spencer Jones,DeAndre Jordan,Jamal Murray,Zeke Nnaji,Jalen Pickett,Michael Porter Jr.,Dario Saric,Julian Strawther,Hunter Tyson,Peyton Watson,Russell Westbrook,Average
+0,Trey Alexander,-1,20,20,12,4,29,20,16,16,20,20,16,32,16,16,16,32,32,19.82
+1,Christian Braun,20,-1,33,28,20,28,32,12,40,20,17,36,13,33,36,24,20,20,25.41
+2,Vlatko Cancar,20,33,-1,20,16,28,28,24,33,16,36,40,21,33,33,24,32,20,26.88
+3,Aaron Gordon,12,28,20,-1,25,28,25,43,20,33,20,32,28,28,16,43,37,24,27.18
+4,PJ Hall,4,20,16,25,-1,12,25,25,24,29,20,24,12,16,12,33,17,16,19.41
+5,DaRon Holmes II,29,28,28,28,12,-1,35,16,32,20,16,28,16,24,28,20,24,44,25.18
+6,Nikola Jokic,20,32,28,25,25,35,-1,29,20,41,24,28,16,16,36,21,25,16,25.71
+7,Spencer Jones,16,12,24,43,25,16,29,-1,24,29,12,20,16,28,16,28,36,24,23.41
+8,DeAndre Jordan,16,40,33,20,24,32,20,24,-1,8,24,40,25,21,28,12,20,16,23.71
+9,Jamal Murray,20,20,16,33,29,20,41,29,8,-1,16,16,32,32,16,33,32,12,23.82
+10,Zeke Nnaji,20,17,36,20,20,16,24,12,24,16,-1,25,29,40,17,24,28,12,22.35
+11,Jalen Pickett,16,36,40,32,24,28,28,20,40,16,25,-1,17,25,32,16,20,20,25.59
+12,Michael Porter Jr.,32,13,21,28,12,16,16,16,25,32,29,17,-1,21,32,20,36,20,22.71
+13,Dario Saric,16,33,33,28,16,24,16,28,21,32,40,25,21,-1,21,32,36,8,25.29
+14,Julian Strawther,16,36,33,16,12,28,36,16,28,16,17,32,32,21,-1,12,20,16,22.76
+15,Hunter Tyson,16,24,24,43,33,20,21,28,12,33,24,16,20,32,12,-1,44,20,24.82
+16,Peyton Watson,32,20,32,37,17,24,25,36,20,32,28,20,36,36,20,44,-1,20,28.18
+17,Russell Westbrook,32,20,20,24,16,44,16,24,16,12,12,20,20,8,16,20,20,-1,20.0

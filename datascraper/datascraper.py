@@ -28,6 +28,9 @@ birth_link = "https://www.basketball-reference.com/players/"
 # to get coaching data
 coach_link = "https://www.basketball-reference.com/coaches/"
 coach_link_base = "https://www.basketball-reference.com/"
+# to get rotation/starter-bench data
+# NOTE: MAY BECOME OUTDATED/DEAD LINK AT SOME POINT
+rotation_link = "https://hoopshype.com/lists/2022-23-depth-charts-an-early-look-at-team-rotations/"
 
 # calculates age Int provided birthDate Date object
 def calculateAge(birthDate):
@@ -57,6 +60,10 @@ def getRosteredPlayers():
             for team in teams:
                 team_link = team.find("div", class_="TeamLinks__Links").find_all("span")[2].find("a", href=True)['href']
                 team_link_list.append(team_link)
+
+    # keep track of current player data
+    if os.path.exists("data/player-data.csv"):
+        player_df = pd.read_csv("data/player-data.csv")
 
     # go to each link and get list of players
     for team_link in team_link_list:
@@ -88,6 +95,21 @@ def getRosteredPlayers():
             lname = names[1]
             if len(names) > 2:
                 lname += names[2]
+
+            # if we already have this data stored, 
+            if player_df is not None and not player_df[player_df["Name"] == name].empty: 
+                # use data stored to make entry
+                entry = player_df.loc[player_df["Name"] == name].iloc[0]
+                player_arr.append(entry["Age"])
+                player_arr.append(entry["Birth Date"])
+                player_arr.append(entry["Birth Location"])
+                if not isinstance(data, pd.DataFrame):
+                    data.append(player_arr)
+                else:
+                    data = pd.concat([pd.DataFrame([player_arr], columns=data.columns), data], ignore_index=True)
+
+                continue
+
             # link is first letter of last name / first 5 of last + first 2 of first + 01 (or other index maybe)
             player_link = str(lname)[:1] + "/" + str(lname.replace("'", "").replace("-", ""))[:5] + str(fname.replace(".", "").replace("'", ""))[:2]
             
@@ -117,11 +139,14 @@ def getRosteredPlayers():
             elif name == "David Duke Jr.":
                 # randomly 4 length last name
                 player_link = "d/dukeda"
+            elif name == "Jarod Lucas":
+                # this guy is not important
+                player_link = ""
 
             # get player birth date and location (from bball ref)
             soup = BeautifulSoup(requests.get(birth_link + player_link + "01.html").content, "html.parser")
 
-            # this one actually kind of makes sense but he should be 01 and not 02
+            # this one actually kind of makes sense but they should be 01 and not 02
             if name == "Bronny James" or name == "Devin Carter":
                 soup = BeautifulSoup(requests.get(birth_link + player_link + "02.html").content, "html.parser")
 
@@ -196,6 +221,7 @@ def getRosteredPlayers():
     if not os.path.exists("data"):
         os.mkdir("data")
     df.to_csv("data/rostered-players.csv")
+
     os.remove("temp.csv")
 
 def getFreeAgents():
@@ -209,6 +235,10 @@ def getFreeAgents():
     soup = BeautifulSoup(requests.get(free_agent_list, headers=headers).content, "html.parser")
 
     fa_list = soup.find_all("table")[1].find("tbody").find_all("tr")
+
+    if os.path.exists("data/player-data.csv"):
+        player_df = pd.read_csv("data/player-data.csv")
+
     for player in fa_list:
         # table breaks
         if "ad" in player["class"]:
@@ -244,6 +274,29 @@ def getFreeAgents():
         lname = names[1]
         if len(names) > 2:
             lname += names[2]
+
+        # if we already have this data, don't re-request it
+        if player_df is not None and not player_df.loc[player_df["Name"] == name].empty:
+            entry = player_df.loc[player_df["Name"] == name].iloc[0]
+            player_arr.append(entry["Height (ft)"])
+            player_arr.append(entry["Weight (lb)"])
+            player_arr.append("--")
+            player_arr.append(entry["Age"])
+            player_arr.append(entry["Birth Date"])
+            player_arr.append(entry["Birth Location"])
+
+            if not isinstance(data, pd.DataFrame):
+                data.append(player_arr)
+                df = pd.DataFrame(data)
+                cols = ["Team", "Name", "Jersey", "Position", "Height (ft)", "Weight (lb)", "Salary", "Age", "Birth Date", "Birth Location"]
+                df.columns = cols
+                df.to_csv("temp.csv", index=False)
+            else:
+                data = pd.concat([pd.DataFrame([player_arr], columns=data.columns), data], ignore_index=True)
+                data.to_csv("temp.csv", index=False)
+
+            continue
+
         player_link = str(lname)[:1] + "/" + str(lname)[:5] + str(fname.replace(".", "").replace("'", ""))[:2]
         
         # fixing random discrepancies
@@ -298,7 +351,6 @@ def getFreeAgents():
         else: 
             player_arr.append("--")
 
-        # when team is completed, add to temp file
         if not isinstance(data, pd.DataFrame):
             data.append(player_arr)
             df = pd.DataFrame(data)
@@ -333,8 +385,8 @@ def getCoaches():
     for row in rows:
         coach = []
         # only get data for modern coaches
-        test = row.find("td", {"data-stat": "year_max"})
-        if test is not None and int(test.text) >= 2022:
+        test = row.find("td", {"data-stat": "season_max"})
+        if test is not None and int(test.text) >= 2023:
             coach.append("FA") # team (will fill in manually ig)
             coach.append(row.find("th").find("a").text) # name
             print("   --- " + coach[1])
@@ -355,6 +407,7 @@ def getCoaches():
             time.sleep(3)
 
     df = pd.DataFrame(data)
+    print(df)
     cols = ["Team", "Name", "Age", "Birth Date", "Birth Location"]
 
     df.columns = cols
@@ -373,6 +426,70 @@ def combinePlayerData():
     players = pd.concat([players, fa_df])
     players.to_csv("data/all_players.csv")
 
+    df = players[["Name", "Height (ft)", "Weight (lb)", "Age", "Birth Date", "Birth Location"]]
+    df.to_csv("data/player-data.csv")
+
+def getRotations():
+    # check that roster data exists first
+    if not os.path.isfile("data/rostered-players.csv"):
+        print("   --- Could not find rostered player data, aborting process")
+        return
+    
+    # first create dataframe holding whether player is starting or bench
+        # neither means deeper in rotation
+    headers = { "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" }
+    soup = BeautifulSoup(requests.get(rotation_link, headers=headers).content, "html.parser")
+    rotation = pd.read_csv("data/all_players.csv", index_col=0)
+    rotation["Role"] = "--"
+
+    team_abbrvs = ["ATL", "BOS", "BKN", "CHA", "CHI", "CLE", "DAL", "DEN", "DET", "GS", 
+                   "HOU", "IND", "LAC", "LAL", "MEM", "MIA", "MIL", "MIN", "NO", "NY", 
+                   "OKC", "ORL", "PHI", "PHX", "POR", "SAC", "SA", "TOR", "UTAH", "WSH"]
+
+    # get array of all teams' projected rotations
+    teams = soup.find("div", id="listicle-0").parent.find_all("div", class_="listicle")
+    i = 0
+    for team in teams:
+        team_name = str(team.find("h3", class_="listicle-header").text).strip()
+        print("   --- " + team_name)
+        team_link = team.find("iframe")["src"]
+        soup = BeautifulSoup(requests.get(team_link, headers=headers).content, "html.parser")
+        rows = soup.find("table", class_="waffle").find("tbody").find_all("tr")
+        lnames = rotation["Name"].str.split(" ").str[1]
+
+        # third row is name of starters
+        for name in rows[2].find_all("td"):
+            # search for player in roster_df and mark if found
+            txt = str(name.text)
+            search = [txt, txt + " Jr.", txt + " II"] # might have something at end too
+
+            # there is a defined order of teams, so search by last name in team
+            if not rotation.loc[(rotation["Team"] == team_abbrvs[i]) & (rotation["Name"].isin(search))].empty:
+                rotation.loc[(rotation["Team"] == team_abbrvs[i]) & (rotation["Name"].isin(search)), "Role"] = "Starter"
+            elif not rotation.loc[(rotation["Team"] == team_abbrvs[i]) & (lnames == txt.split(" ")[1])].empty:
+                rotation.loc[(rotation["Team"] == team_abbrvs[i]) & (lnames == txt.split(" ")[1]), "Role"] = "Starter" 
+            else:
+                print("      --- Could not find player " + name.text + " in df [starter]")
+
+        # sixth row is name of bench guys
+        for name in rows[5].find_all("td"):
+            # search for player in roster_df and mark if found
+            txt = str(name.text)
+            search = [txt, txt + " Jr.", txt + " II"] # might have something at end too
+
+            if not rotation.loc[(rotation["Team"] == team_abbrvs[i]) & (rotation["Name"].isin(search))].empty:
+                rotation.loc[(rotation["Team"] == team_abbrvs[i]) & (rotation["Name"].isin(search)), "Role"] = "Bench"
+            elif not rotation.loc[(rotation["Team"] == team_abbrvs[i]) & (lnames == txt.split(" ")[1])].empty:
+                rotation.loc[(rotation["Team"] == team_abbrvs[i]) & (lnames == txt.split(" ")[1]), "Role"] = "Bench"
+            else:
+                print("      --- Could not find player " + name.text + " in df [bench]")
+
+        i += 1
+    
+    # save data
+    rotation.to_csv("data/player-roles.csv")
+
+# main function that allows users to scrape new data
 def refreshData():
     print("Loading player roster/birthday data")
     print("--- Getting all Current Roster data")
@@ -419,6 +536,25 @@ def refreshData():
         choice = input("--- Would you like to combine the free agent and rostered player data? [y/n]\n   ")
     if choice == "y":
         combinePlayerData()
+
+        if not os.path.isfile("data/player-roles.csv"):
+            getRotations()
+        else:
+            # allow overwrite to update data
+            print("   --- Found existing rotation data file.")
+            response = input("   --- Would you like to overwrite this? (y/n)\n   ")
+            while response not in ["y", "n"]:
+                response = input("   --- Would you like to overwrite this? (y/n)\n   ")
+            if response == "y":
+                getRotations()
+
     print("Completed!")
 
-refreshData()
+
+print("Refresh player data? (yes or no)")
+if input("   ") == "yes":
+    refreshData()
+
+print("Refresh rotation data? (yes or no)")
+if input("   ") == "yes":
+    getRotations()

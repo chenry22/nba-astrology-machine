@@ -1,15 +1,18 @@
-,Name,Giannis Antetokounmpo,MarJon Beauchamp,Pat Connaughton,Jaylin Galloway,AJ Green,Andre Jackson Jr.,AJ Johnson,Damian Lillard,Chris Livingston,Brook Lopez,Khris Middleton,Bobby Portis,Ryan Rollins,Delon Wright,Average
-0,Giannis Antetokounmpo,-1,28,28,25,16,8,45,24,20,24,28,16,24,8,22.62
-1,MarJon Beauchamp,28,-1,36,20,25,27,24,28,25,44,16,16,21,20,25.38
-2,Pat Connaughton,28,36,-1,20,17,24,24,40,29,32,24,20,32,4,25.38
-3,Jaylin Galloway,25,20,20,-1,31,24,29,20,24,28,24,20,16,24,23.46
-4,AJ Green,16,25,17,31,-1,16,20,29,21,36,12,12,21,36,22.46
-5,Andre Jackson Jr.,8,27,24,24,16,-1,16,24,43,20,32,44,16,29,24.85
-6,AJ Johnson,45,24,24,29,20,16,-1,24,20,16,8,12,16,8,20.15
-7,Damian Lillard,24,28,40,20,29,24,24,-1,40,29,12,28,25,20,26.38
-8,Chris Livingston,20,25,29,24,21,43,20,40,-1,32,28,36,25,20,27.92
-9,Brook Lopez,24,44,32,28,36,20,16,29,32,-1,16,12,32,20,26.23
-10,Khris Middleton,28,16,24,24,12,32,8,12,28,16,-1,28,24,21,21.0
-11,Bobby Portis,16,16,20,20,12,44,12,28,36,12,28,-1,20,36,23.08
-12,Ryan Rollins,24,21,32,16,21,16,16,25,25,32,24,20,-1,24,22.77
-13,Delon Wright,8,20,4,24,36,29,8,20,20,20,21,36,24,-1,20.77
+,Name,Giannis Antetokounmpo,MarJon Beauchamp,Pat Connaughton,AJ Green,Andre Jackson Jr.,AJ Johnson,Damian Lillard,Chris Livingston,Brook Lopez,Khris Middleton,Anzejs Pasecniks,Bobby Portis,Taurean Prince,Liam Robbins,Ryan Rollins,Gary Trent Jr.,Delon Wright,Average
+0,Giannis Antetokounmpo,-1,24,16,20,16,33,24,24,16,20,29,28,16,24,16,29,20,22.19
+1,MarJon Beauchamp,24,-1,36,9,20,20,28,33,47,20,12,24,25,28,25,20,20,24.44
+2,Pat Connaughton,16,36,-1,9,16,8,36,29,20,32,12,20,17,28,36,20,12,21.69
+3,AJ Green,20,9,9,-1,20,32,33,13,43,16,24,20,40,21,17,24,40,23.81
+4,Andre Jackson Jr.,16,20,16,20,-1,12,24,32,20,24,12,32,20,20,16,24,25,20.81
+5,AJ Johnson,33,20,8,32,12,-1,24,20,24,8,41,24,20,20,4,17,20,20.44
+6,Damian Lillard,24,28,36,33,24,24,-1,32,21,28,24,28,29,33,21,28,36,28.06
+7,Chris Livingston,24,33,29,13,32,20,32,-1,24,28,16,32,21,28,25,20,16,24.56
+8,Brook Lopez,16,47,20,43,20,24,21,24,-1,12,16,12,29,25,36,24,16,24.06
+9,Khris Middleton,20,20,32,16,24,8,28,28,12,-1,12,32,16,24,20,40,17,21.81
+10,Anzejs Pasecniks,29,12,12,24,12,41,24,16,16,12,-1,16,20,20,24,36,28,21.38
+11,Bobby Portis,28,24,20,20,32,24,28,32,12,32,16,-1,16,16,16,24,25,22.81
+12,Taurean Prince,16,25,17,40,20,20,29,21,29,16,20,16,-1,29,21,35,8,22.62
+13,Liam Robbins,24,28,28,21,20,20,33,28,25,24,20,16,29,-1,33,12,16,23.56
+14,Ryan Rollins,16,25,36,17,16,4,21,25,36,20,24,16,21,33,-1,24,20,22.12
+15,Gary Trent Jr.,29,20,20,24,24,17,28,20,24,40,36,24,35,12,24,-1,20,24.81
+16,Delon Wright,20,20,12,40,25,20,36,16,16,17,28,25,8,16,20,20,-1,21.19

@@ -1,16 +1,18 @@
-,Name,Clint Capela,Bogdan Bogdanovic,Kobe Bufkin,Dyson Daniels,Nikola Djurisic,Bruno Fernando,Mouhamed Gueye,De'Andre Hunter,Jalen Johnson,E.J. Liddell,Garrison Mathews,Larry Nance Jr.,Onyeka Okongwu,Zaccharie Risacher,Trae Young,Average
-0,Clint Capela,-1,32,20,24,16,52,29,12,24,28,29,25,16,16,12,23.93
-1,Bogdan Bogdanovic,32,-1,16,36,31,29,17,20,16,8,17,32,24,40,28,24.71
-2,Kobe Bufkin,20,16,-1,36,25,24,16,17,44,55,24,20,29,20,36,27.29
-3,Dyson Daniels,24,36,36,-1,37,28,16,13,28,36,32,16,33,28,40,28.79
-4,Nikola Djurisic,16,31,25,37,-1,8,28,25,17,17,16,28,17,24,29,22.71
-5,Bruno Fernando,52,29,24,28,8,-1,25,12,24,24,21,32,28,20,12,24.21
-6,Mouhamed Gueye,29,17,16,16,28,25,-1,20,16,24,25,25,12,16,12,20.07
-7,De'Andre Hunter,12,20,17,13,25,12,20,-1,25,21,12,32,33,20,33,21.07
-8,Jalen Johnson,24,16,44,28,17,24,16,25,-1,44,32,16,33,16,32,26.21
-9,E.J. Liddell,28,8,55,36,17,24,24,21,44,-1,32,12,29,24,36,27.86
-10,Garrison Mathews,29,17,24,32,16,21,25,12,32,32,-1,13,16,16,8,20.93
-11,Larry Nance Jr.,25,32,20,16,28,32,25,32,16,12,13,-1,28,24,16,22.79
-12,Onyeka Okongwu,16,24,29,33,17,28,12,33,33,29,16,28,-1,24,21,24.5
-13,Zaccharie Risacher,16,40,20,28,24,20,16,20,16,24,16,24,24,-1,16,21.71
-14,Trae Young,12,28,36,40,29,12,12,33,32,36,8,16,21,16,-1,23.64
+,Name,Dominick Barlow,Bogdan Bogdanovic,Kobe Bufkin,Clint Capela,Dyson Daniels,Mouhamed Gueye,De'Andre Hunter,Jalen Johnson,Vit Krejci,Garrison Mathews,Larry Nance Jr.,Onyeka Okongwu,Zaccharie Risacher,David Roddy,Keaton Wallace,Trae Young,Cody Zeller,Average
+0,Dominick Barlow,-1,20,17,32,29,12,40,29,21,24,24,17,32,16,32,17,28,24.38
+1,Bogdan Bogdanovic,20,-1,12,39,28,25,20,24,20,29,32,20,35,20,20,20,16,23.75
+2,Kobe Bufkin,17,12,-1,20,40,28,17,36,44,20,24,25,20,31,25,32,20,25.69
+3,Clint Capela,32,39,20,-1,24,25,28,24,28,21,33,20,28,8,12,20,16,23.62
+4,Dyson Daniels,29,28,40,24,-1,28,25,32,41,36,24,33,16,28,21,40,12,28.56
+5,Mouhamed Gueye,12,25,28,25,28,-1,12,20,24,13,29,16,20,28,32,40,0,22.0
+6,De'Andre Hunter,40,20,17,28,25,12,-1,21,17,16,24,25,20,12,36,17,24,22.12
+7,Jalen Johnson,29,24,36,24,32,20,21,-1,40,28,16,37,16,16,13,36,16,25.25
+8,Vit Krejci,21,20,44,28,41,24,17,40,-1,24,12,40,8,12,21,40,8,25.0
+9,Garrison Mathews,24,29,20,21,36,13,16,28,24,-1,25,16,20,19,20,12,28,21.94
+10,Larry Nance Jr.,24,32,24,33,24,29,24,16,12,25,-1,28,31,16,24,12,20,23.38
+11,Onyeka Okongwu,17,20,25,20,33,16,25,37,40,16,28,-1,28,8,29,29,8,23.69
+12,Zaccharie Risacher,32,35,20,28,16,20,20,16,8,20,31,28,-1,25,16,8,40,22.69
+13,David Roddy,16,20,31,8,28,28,12,16,12,19,16,8,25,-1,20,24,36,19.94
+14,Keaton Wallace,32,20,25,12,21,32,36,13,21,20,24,29,16,20,-1,25,24,23.12
+15,Trae Young,17,20,32,20,40,40,17,36,40,12,12,29,8,24,25,-1,12,24.0
+16,Cody Zeller,28,16,20,16,12,0,24,16,8,28,20,8,40,36,24,12,-1,19.25

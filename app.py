@@ -4,8 +4,8 @@ import os
 
 app = Flask(__name__)
 basedir = os.path.abspath(os.path.dirname(__file__))
-curr_rosters = os.path.join(basedir, 'static/rostered-players.csv')
-free_agents = os.path.join(basedir, 'static/free-agents.csv')
+coaches = os.path.join(basedir, 'static/coaches.csv')
+all_players = os.path.join(basedir, 'static/player-roles.csv')
 
 teams = ["ny", "bkn", "bos", "phi", "tor", "chi", "cle", "det", "ind", "mil",
          "den", "min", "okc", "por", "utah", "gs", "lac", "lal", "phx", "sac",
@@ -18,7 +18,7 @@ def home():
 @app.route('/team/<team>', methods=['GET', 'POST'])
 def load_team(team):
     if team in teams:
-        df = pd.read_csv(curr_rosters)
+        df = pd.read_csv(all_players)
         team_data = df.loc[df["Team"] == str(team).upper()]
         return render_template('team.html',  tables=[team_data.to_html(classes='data', header=True, index=False)])
     else:

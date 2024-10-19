@@ -1,0 +1,606 @@
+,Team,Name,Jersey,Position,Height (ft),Weight (lb),Salary,Age,Birth Date,Birth Location,Role
+0,SA,Blake Wesley,14,G,"6' 3""",190,"$2,624,280",21,2003-03-16,"South Bend, Indiana",--
+1,SA,Victor Wembanyama,1,C,"7' 3""",235,"$12,768,960",20,2004-01-04,"Le Chesnay, France",Starter
+2,SA,Devin Vassell,24,SG,"6' 5""",205,"$29,347,826",23,2000-08-23,"Lawrenceville, Georgia",--
+3,SA,Jeremy Sochan,10,F,"6' 8""",230,"$5,570,040",21,2003-05-20,"Guymon, Oklahoma",Starter
+4,SA,Chris Paul,3,PG,"6' 0""",190,"$10,460,000",39,1985-05-06,"Winston-Salem, North Carolina",Starter
+5,SA,Riley Minix,27,F,"6' 7""",230,--,24,2000-09-22,"Vero Beach, Florida",--
+6,SA,Sandro Mamukelashvili,54,PF,"6' 9""",235,"$2,087,519",25,1999-05-23,"New York, New York",--
+7,SA,Tre Jones,33,PG,"6' 1""",190,"$9,104,167",24,2000-01-08,"Apple Valley, Minnesota",Bench
+8,SA,Keldon Johnson,0,SF,"6' 5""",215,"$19,000,000",24,1999-10-11,"Chesterfield, Virginia",Bench
+9,SA,Harrison Ingram,55,F,"6' 5""",235,--,21,2002-11-27,"Dallas, Texas",--
+10,SA,Malachi Flynn,18,PG,"6' 1""",185,--,26,1998-05-10,"Tacoma, Washington",--
+11,SA,David Duke Jr.,28,G,"6' 4""",200,--,24,1999-10-13,"Providence, Rhode Island",--
+12,SA,Zach Collins,23,PF,"6' 11""",240,"$16,741,200",26,1997-11-19,"Las Vegas, Nevada",Bench
+13,SA,Sidy Cissoko,25,G,"6' 6""",220,"$1,891,857",20,2004-04-02,"Saint-Maurice, France",--
+14,SA,Julian Champagnie,30,F,"6' 8""",210,"$3,000,000",23,2001-06-29,"Staten Island, New York",Starter
+15,SA,Stephon Castle,5,G,"6' 5""",210,"$9,131,760",19,2004-11-01,"Covington, Georgia",Bench
+16,SA,Malaki Branham,22,G,"6' 5""",205,"$3,217,920",21,2003-05-12,"Columbus, Ohio",Bench
+17,SA,Brandon Boston Jr.,4,SG,"6' 6""",200,--,22,2001-11-28,"Norcross, Georgia",--
+18,SA,Charles Bassey,28,C,"6' 10""",240,"$2,087,519",23,2000-10-28,"Lagos, Nigeria",--
+19,SA,Harrison Barnes,40,SF,"6' 8""",225,"$18,000,000",32,1992-05-30,"Ames, Iowa",Starter
+20,NO,Zion Williamson,1,PF,"6' 6""",285,"$36,725,670",23,2000-07-06,"Salisbury, North Carolina",Starter
+21,NO,Daniel Theis,10,C,"6' 8""",245,"$2,087,519",32,1992-04-04,"Salzgitter, Germany",Starter
+22,NO,Jeremiah Robinson-Earl,50,F,"6' 9""",234,"$2,196,970",23,2000-11-03,"Kansas City, Missouri",--
+23,NO,Antonio Reeves,12,G,"6' 5""",189,"$1,157,153",23,2000-11-20,"Chicago, Illinois",--
+24,NO,Dejounte Murray,5,SG,"6' 5""",181,"$29,535,801",27,1996-09-19,"Seattle, Washington",Starter
+25,NO,Trey Murphy III,25,SG,"6' 8""",217,"$5,159,855",24,2000-06-18,"Durham, North Carolina",Bench
+26,NO,Yves Missi,21,C,"6' 11""",236,"$3,202,560",20,2004-05-14,"Brussels, Belgium",Bench
+27,NO,CJ McCollum,3,SG,"6' 3""",202,"$33,333,333",32,1991-09-19,"Canton, Ohio",Starter
+28,NO,Karlo Matkovic,17,C,"6' 11""",260,"$1,407,153",23,2001-03-30,"Livno, Bosnia and Herzegovina",--
+29,NO,Herbert Jones,2,SF,"6' 7""",212,"$12,976,362",25,1998-10-06,"Tuscaloosa, Alabama",Bench
+30,NO,Trey Jemison,55,C,"6' 11""",275,--,24,1999-11-28,"Birmingham, Alabama",--
+31,NO,Brandon Ingram,14,SF,"6' 8""",210,"$36,016,200",26,1997-09-02,"Kinston, North Carolina",Starter
+32,NO,Malcolm Hill,33,G,"6' 6""",225,--,28,1995-10-26,"St. Louis, Missouri",--
+33,NO,Jordan Hawkins,24,G,"6' 5""",185,"$4,525,680",22,2002-04-29,"Gaithersburg, Maryland",Bench
+34,NO,Javonte Green,4,G,"6' 4""",220,--,30,1993-07-23,"Petersburg, Virginia",--
+35,NO,Jamal Cain,8,F,"6' 7""",207,--,25,1999-03-20,"Pontiac, Michigan",--
+36,NO,Jose Alvarado,15,PG,"6' 0""",182,"$1,988,598",26,1998-04-12,"Brooklyn, New York",Bench
+37,MEM,Vince Williams Jr.,5,G,"6' 6""",205,"$2,120,693",23,2000-08-30,"Toledo, Ohio",Bench
+38,MEM,Jaylen Wells,0,F,"6' 7""",206,"$1,157,153",20,2003-08-26,"Sacramento, California",--
+39,MEM,Cam Spencer,24,G,"6' 3""",201,--,24,2000-04-06,"Davidsonville, Maryland",--
+40,MEM,Marcus Smart,36,PG,"6' 3""",220,"$20,210,285",30,1994-03-06,"Flower Mound, Texas",Starter
+41,MEM,Scotty Pippen Jr.,1,G,"6' 1""",170,--,23,2000-11-10,"Portland, Oregon",Bench
+42,MEM,Maozinha Pereira,25,F,"6' 8""",177,--,24,2000-08-28,"Rio de Janeiro, Brazil",--
+43,MEM,Miye Oni,81,SF,"6' 5""",206,--,27,1997-08-04,"Los Angeles, California",--
+44,MEM,Miles Norris,0,F,"6' 7""",220,--,24,2000-04-15,"San Francisco, California",--
+45,MEM,Ja Morant,12,PG,"6' 3""",175,"$36,725,670",24,1999-08-10,"Dalzell, South Carolina",Starter
+46,MEM,Jake LaRavia,3,F,"6' 7""",235,"$3,352,680",22,2001-11-03,"Pasadena, California",Bench
+47,MEM,John Konchar,46,SG,"6' 5""",210,"$6,165,000",28,1996-03-22,"Chicago, Illinois",--
+48,MEM,Luke Kennard,10,SG,"6' 5""",206,"$9,250,000",28,1996-06-24,"Middletown, Ohio",Bench
+49,MEM,Yuki Kawamura,17,G,"5' 8""",159,--,23,2001-05-02,"Yanai, Japan",--
+50,MEM,Jaren Jackson Jr.,13,PF,"6' 11""",242,"$25,257,798",56,1967-10-27,"New Orleans, Louisiana",Starter
+51,MEM,GG Jackson II,45,F,"6' 9""",215,"$1,891,857",19,2004-12-17,"Columbia, South Carolina",Starter
+52,MEM,Jay Huff,30,C,"7' 1""",240,--,25,1998-08-25,"Durham, North Carolina",--
+53,MEM,Zach Edey,14,C,"7' 4""",299,"$5,756,880",22,2002-05-14,"Toronto, Canada",Bench
+54,MEM,Brandon Clarke,15,PF,"6' 8""",210,"$12,500,000",27,1996-09-19,"Vancouver, British Columbia",--
+55,MEM,Desmond Bane,22,SG,"6' 6""",215,"$34,005,250",26,1998-06-25,"Richmond, Indiana",Starter
+56,MEM,Armando Bacot,00,PF,"6' 11""",240,--,24,2000-03-06,"Richmond, Virginia",--
+57,MEM,Santi Aldama,7,PF,"6' 11""",224,"$3,960,531",23,2001-01-10,"Las Palmas, Spain",Starter
+58,HOU,Nate Williams,19,G,"6' 5""",205,--,74,1950-05-02,"Columbia, Louisiana",--
+59,HOU,Cam Whitmore,7,F,"6' 7""",235,"$3,379,080",19,2004-07-08,"Odenton, Maryland",--
+60,HOU,Fred VanVleet,5,PG,"6' 0""",193,"$42,846,615",30,1994-02-25,"Rockford, Illinois",Starter
+61,HOU,Amen Thompson,1,F,"6' 7""",215,"$9,249,960",21,2003-01-30,"San Leandro, California",Bench
+62,HOU,Jae'Sean Tate,8,SF,"6' 5""",226,"$7,565,217",28,1995-10-28,"Toledo, Ohio",Bench
+63,HOU,Jabari Smith Jr.,10,PF,"6' 11""",213,"$9,770,880",47,1977-02-12,"Atlanta, Georgia",Starter
+64,HOU,Reed Sheppard,15,G,"6' 3""",182,"$10,098,960",20,2004-06-24,"London, Kentucky",Bench
+65,HOU,Alperen Sengun,28,C,"6' 11""",255,"$5,424,654",21,2002-07-25,"Giresun, Turkey",Starter
+66,HOU,Jermaine Samuels Jr.,00,F,"6' 7""",230,--,25,1998-11-13,"Franklin, Massachusetts",--
+67,HOU,Jack McVeigh,58,G,"6' 7""",205,--,28,1996-06-27,"Murwillumbah, Australia",--
+68,HOU,Jock Landale,2,C,"6' 11""",255,"$8,000,000",28,1995-10-25,"E Malvern, Australia",--
+69,HOU,Aaron Holiday,0,G,"6' 0""",185,"$4,668,000",27,1996-09-30,"Ruston, Louisiana",--
+70,HOU,Nate Hinton,41,G,"6' 5""",210,--,25,1999-06-08,"Gastonia, North Carolina",--
+71,HOU,Jeff Green,32,PF,"6' 8""",235,"$8,000,000",37,1986-08-28,"Cheverly, Maryland",Bench
+72,HOU,Jalen Green,4,SG,"6' 6""",183,"$12,483,048",22,2002-02-09,"Merced, California",Starter
+73,HOU,Tari Eason,17,F,"6' 8""",217,"$3,695,160",23,2001-05-10,"Portsmouth, Virginia",--
+74,HOU,Dillon Brooks,9,SF,"6' 7""",220,"$22,255,493",28,1996-01-22,"Mississauga, Ontario",Starter
+75,HOU,Steven Adams,12,C,"6' 11""",265,"$12,600,000",30,1993-07-20,"Rotorua, New Zealand",Bench
+76,DAL,Brandon Williams,10,G,"6' 1""",190,--,24,1975-02-27,"Collinston, Louisiana",--
+77,DAL,P.J. Washington,25,PF,"6' 7""",230,"$15,500,000",25,1998-08-23,"Louisville, Kentucky",Starter
+78,DAL,Klay Thompson,31,SG,"6' 6""",220,"$15,873,016",34,1990-02-08,"Los Angeles, California",Starter
+79,DAL,Olivier-Maxence Prosper,8,F,"6' 8""",215,"$2,869,920",22,2002-07-03,"Montreal, Canada",--
+80,DAL,Dwight Powell,7,C,"6' 10""",240,"$4,000,000",32,1991-07-20,"Toronto, Ontario",--
+81,DAL,Markieff Morris,88,PF,"6' 9""",245,"$2,087,519",34,1989-09-02,"Philadelphia, Pennsylvania",--
+82,DAL,Naji Marshall,13,SF,"6' 7""",225,"$8,571,429",26,1998-01-24,"Atlantic City, New Jersey",Bench
+83,DAL,Dereck Lively II,2,C,"7' 1""",234,"$5,014,560",20,2004-02-12,"Philadelphia, Pennsylvania",Bench
+84,DAL,Maxi Kleber,42,PF,"6' 10""",240,"$11,000,000",32,1992-01-29,"Wurzburg, Germany",Bench
+85,DAL,Kyrie Irving,11,PG,"6' 2""",191,"$41,000,000",32,1992-03-23,"Melbourne, Australia",Starter
+86,DAL,Jaden Hardy,1,G,"6' 4""",198,"$2,019,699",21,2002-07-05,"Detroit, Michigan",Bench
+87,DAL,Quentin Grimes,5,SG,"6' 5""",210,"$4,296,615",24,2000-05-08,"Houston, Texas",--
+88,DAL,Daniel Gafford,21,C,"6' 10""",234,"$13,394,160",25,1998-10-01,"El Dorado, Arkansas",Starter
+89,DAL,Dante Exum,0,G,"6' 5""",214,"$3,150,000",28,1995-07-13,"Melbourne, Australia",--
+90,DAL,Kessler Edwards,20,SF,"6' 8""",215,--,23,2000-08-09,"Glendale, California",--
+91,DAL,Luka Doncic,77,PG,"6' 7""",230,"$43,031,940",25,1999-02-28,"Ljubljana, Slovenia",Starter
+92,DAL,Spencer Dinwiddie,26,PG,"6' 5""",215,"$2,087,519",31,1993-04-06,"Los Angeles, California",Bench
+93,BOS,Jaylen Brown,7,SG,"6' 6""",220,"$49,205,800",27,1996-10-24,"Marietta, Georgia",Starter
+94,BOS,JD Davison,20,SG,"6' 3""",195,--,21,2002-10-03,"Montgomery, Alabama",--
+95,BOS,Sam Hauser,30,SF,"6' 8""",215,"$2,092,344",26,1997-12-08,"Green Bay, Wisconsin",Bench
+96,BOS,Jrue Holiday,4,PG,"6' 5""",220,"$30,000,000",34,1990-06-12,"Chatsworth, California",Starter
+97,BOS,Al Horford,42,C,"6' 9""",240,"$9,500,000",38,1986-06-03,"Puerto Plata, Dominican Republic",Starter
+98,BOS,Luke Kornet,40,C,"7' 2""",250,"$2,087,519",28,1995-07-15,"Lantana, Texas",Bench
+100,BOS,Kristaps Porzingis,8,C,"7' 3""",240,"$29,268,293",28,1995-08-02,"Liepaja, Latvia",--
+101,BOS,Payton Pritchard,11,PG,"6' 2""",190,"$6,696,429",26,1998-01-28,"Tualatin, Oregon",Bench
+102,BOS,Neemias Queta,88,C,"7' 0""",245,"$2,162,606",24,1999-07-13,"Lisbon, Portugal",--
+103,BOS,Baylor Scheierman,55,F,"6' 6""",203,"$2,494,320",23,2000-09-26,"Hastings, Nebraska",--
+104,BOS,Jaden Springer,44,G,"6' 4""",204,"$4,018,580",21,2002-09-25,"Charlotte, North Carolina",--
+105,BOS,Jayson Tatum,0,SF,"6' 8""",210,"$34,848,340",26,1998-03-03,"St. Louis, Missouri",Starter
+106,BOS,Xavier Tillman,26,F,"6' 8""",245,"$2,237,691",25,1999-01-12,"Grand Rapids, Michigan",Bench
+107,BOS,Lonnie Walker IV,12,G,"6' 4""",205,"$2,087,519",25,1998-12-14,"Reading, Pennsylvania",--
+108,BOS,Jordan Walsh,27,G,"6' 7""",205,"$1,891,857",20,2004-03-03,"DeSoto, Texas",Bench
+109,BOS,Anton Watson,28,F,"6' 8""",235,--,23,2000-10-06,"Coeur d'Alene, Idaho",--
+110,BOS,Derrick White,9,PG,"6' 4""",195,"$20,017,429",30,1994-07-02,"Parker, Colorado",Starter
+111,BKN,Amari Bailey,10,G,"6' 4""",189,--,20,2004-02-17,"New Orleans, Louisiana",--
+112,BKN,Bojan Bogdanovic,44,SF,"6' 7""",230,"$19,032,850",35,1989-04-18,"Mostar, Bosnia and Herzegovina",Bench
+113,BKN,Nic Claxton,33,C,"6' 11""",226,"$27,556,817",25,1999-04-17,"Greenville, South Carolina",Starter
+114,BKN,Noah Clowney,21,F,"6' 9""",230,"$3,244,080",19,2004-07-14,"Spartanburg, South Carolina",Bench
+115,BKN,Yongxi Cui,8,G,"6' 6""",210,--,21,2003-05-28,"Yulin, China",--
+116,BKN,Dorian Finney-Smith,28,PF,"6' 7""",225,"$14,924,168",31,1993-05-04,"Portsmouth, Virginia",Starter
+117,BKN,Killian Hayes,7,G,"6' 5""",210,--,23,2001-07-27,"Lakeland, Florida",--
+118,BKN,Cameron Johnson,2,SF,"6' 8""",225,"$22,500,000",28,1996-03-03,"Moon Township, Pennsylvania",Starter
+119,BKN,Keon Johnson,45,G,"6' 4""",192,"$2,162,606",22,2002-03-10,"Shelbyville, Tennessee",Starter
+120,BKN,Jaylen Martin,16,G,"6' 5""",220,--,20,2004-01-28,"Quincy, Florida",--
+121,BKN,Tyrese Martin,22,G,"6' 6""",215,--,25,1999-03-07,"Allentown, Pennsylvania",--
+122,BKN,Shake Milton,13,SG,"6' 5""",212,"$2,875,000",27,1996-09-26,"Owasso, Oklahoma",--
+123,BKN,Dennis Schroder,17,PG,"6' 3""",178,"$13,025,250",30,1993-09-15,"Braunschweig, Germany",Starter
+124,BKN,Day'Ron Sharpe,20,C,"6' 9""",265,"$3,989,122",22,2001-11-06,"Greenville, North Carolina",--
+125,BKN,Ben Simmons,10,PG,"6' 10""",240,"$40,338,144",27,1996-07-20,"Melbourne, Australia",Bench
+126,BKN,Cam Thomas,24,SG,"6' 3""",215,"$4,041,249",22,2001-10-13,"Yokosuka, Japan",Starter
+127,BKN,Trendon Watford,9,PF,"6' 9""",242,"$2,726,603",23,2000-11-09,"Birmingham, Alabama",Bench
+128,BKN,Dariq Whitehead,0,F,"6' 6""",224,"$3,114,240",19,2004-08-01,"Newark, New Jersey",--
+129,BKN,Ziaire Williams,1,F,"6' 9""",205,"$6,133,005",22,2001-09-12,"Lancaster, California",--
+130,BKN,Jalen Wilson,22,F,"6' 6""",230,"$1,891,857",23,2000-11-04,"Arlington, Texas",Bench
+131,NY,Precious Achiuwa,5,PF,"6' 8""",243,"$6,000,000",24,1999-09-19,"Port Harcourt, Nigeria",Starter
+132,NY,OG Anunoby,8,SF,"6' 7""",240,"$36,637,931",26,1997-07-17,"London, United Kingdom",Starter
+133,NY,Mikal Bridges,25,SF,"6' 6""",209,"$23,300,000",27,1996-08-30,"Philadelphia, Pennsylvania",Starter
+134,NY,Moses Brown,14,C,"7' 2""",258,--,24,1999-10-13,"New York, New York",--
+135,NY,Jalen Brunson,11,PG,"6' 2""",190,"$24,960,001",27,1996-08-31,"New Brunswick, New Jersey",Starter
+136,NY,Pacome Dadiet,4,G,"6' 7""",200,"$1,808,080",18,2005-07-27,"Aubagne, France",Bench
+137,NY,Josh Hart,3,SG,"6' 4""",215,"$18,144,000",29,1995-03-06,"Silver Spring, Maryland",Bench
+138,NY,Ariel Hukporti,55,C,"6' 11""",246,--,22,2002-04-11,"Stralsund, Germany",--
+139,NY,Tyler Kolek,13,G,"6' 1""",195,"$2,087,519",23,2001-03-27,"Providence, Rhode Island",Bench
+140,NY,Miles McBride,2,PG,"6' 1""",195,"$4,710,144",23,2000-09-08,"Cincinnati, Ohio",Bench
+141,NY,Kevin McCullar Jr.,9,F,"6' 5""",206,--,23,2001-03-15,"San Antonio, Texas",--
+142,NY,Chuma Okeke,18,F,"6' 7""",229,--,25,1998-08-18,"Atlanta, Georgia",--
+143,NY,Cameron Payne,1,PG,"6' 3""",183,"$2,087,519",29,1994-08-08,"Memphis, Tennessee",--
+144,NY,Mitchell Robinson,23,C,"7' 0""",240,"$14,318,182",26,1998-04-01,"Pensacola, Florida",--
+145,NY,Landry Shamet,44,SG,"6' 4""",190,"$2,087,519",27,1997-03-13,"Kansas City, Missouri",--
+146,NY,Jericho Sims,20,C,"6' 10""",250,"$2,092,344",25,1998-10-20,"Minneapolis, Minnesota",Bench
+147,NY,Jacob Toppin,00,F,"6' 8""",200,--,24,2000-05-08,"Ossining, New York",--
+148,NY,Karl-Anthony Towns,32,C,"7' 0""",248,"$49,205,800",28,1995-11-15,"Edison, New Jersey",Starter
+149,NY,T.J. Warren,21,SF,"6' 8""",220,--,30,1993-09-05,"Durham, North Carolina",--
+150,PHI,Adem Bona,30,C,"6' 10""",235,"$1,157,153",21,2003-03-28,"Lagos, Nigeria",--
+151,PHI,Ricky Council IV,14,G,"6' 6""",207,"$1,891,857",22,2001-08-03,"Durham, North Carolina",--
+152,PHI,Jeff Dowtin Jr.,11,G,"6' 3""",177,"$2,196,970",27,1997-05-10,"Upper Marlboro, Maryland",--
+153,PHI,Andre Drummond,5,C,"6' 11""",279,"$5,000,000",30,1993-08-10,"Mount Vernon, New York",Bench
+154,PHI,Justin Edwards,19,F,"6' 7""",203,--,20,2003-12-16,"Philadelphia, Pennsylvania",--
+155,PHI,Joel Embiid,21,C,"7' 0""",280,"$51,415,938",30,1994-03-16,"Yaounde, Cameroon",Starter
+156,PHI,Paul George,8,F,"6' 8""",220,"$49,205,800",34,1990-05-02,"Palmdale, California",Starter
+157,PHI,Eric Gordon,23,SG,"6' 3""",215,"$3,303,771",35,1988-12-25,"Indianapolis, Indiana",Bench
+158,PHI,Reggie Jackson,00,PG,"6' 2""",208,"$2,087,519",34,1990-04-16,"Pordenone, Italy",--
+159,PHI,Kyle Lowry,7,PG,"6' 0""",196,"$2,087,519",38,1986-03-25,"Philadelphia, Pennsylvania",Bench
+160,PHI,Caleb Martin,16,SF,"6' 5""",205,"$8,149,001",28,1995-09-28,"Winston-Salem, North Carolina",Starter
+161,PHI,KJ Martin,1,F,"6' 6""",215,"$7,975,000",23,2001-01-06,"Gardena, California",Bench
+162,PHI,Tyrese Maxey,0,PG,"6' 2""",200,"$35,147,000",23,2000-11-04,"Dallas, Texas",Starter
+163,PHI,Jared McCain,20,G,"6' 3""",195,"$4,032,240",20,2004-02-20,"Sacramento, California",Bench
+164,PHI,Kelly Oubre Jr.,9,SG,"6' 8""",203,"$7,983,000",28,1995-12-09,"New Orleans, Louisiana",Starter
+165,PHI,Lester Quinones,25,G,"6' 5""",208,--,23,2000-11-16,"Brentwood, New York",--
+166,PHI,Guerschon Yabusele,28,F,"6' 8""",265,"$2,087,519",28,1995-12-17,"Dreux, France",--
+167,TOR,Ochai Agbaji,30,G,"6' 5""",215,"$4,310,280",24,2000-04-20,"Milwaukee, Wisconsin",Bench
+168,TOR,Scottie Barnes,4,SF,"6' 7""",237,"$10,130,980",22,2001-08-01,"West Palm Beach, Florida",Starter
+169,TOR,RJ Barrett,9,SG,"6' 6""",214,"$25,794,643",24,2000-06-14,"Toronto, Ontario",Starter
+170,TOR,Jamison Battle,77,F,"6' 7""",220,--,23,2001-05-10,"Robbinsdale, Minnesota",--
+171,TOR,Chris Boucher,25,PF,"6' 9""",200,"$10,810,000",31,1993-01-11,"Castries, Saint Lucia",Bench
+172,TOR,Bruce Brown,11,SF,"6' 4""",202,"$23,000,000",27,1996-08-15,"Boston, Massachusetts",Bench
+173,TOR,Branden Carlson,35,C,"7' 0""",220,--,25,1999-06-14,"South Jordan, Utah",--
+174,TOR,D.J. Carton,3,G,"6' 3""",200,--,23,2000-08-05,"Pineville, North Carolina",--
+175,TOR,Ulrich Chomche,22,C,"6' 10""",232,--,18,2005-12-30,"Baham, Cameroon",--
+176,TOR,Gradey Dick,1,G,"6' 6""",200,"$4,763,760",20,2003-11-20,"Wichita, Kansas",Bench
+177,TOR,Bruno Fernando,24,F,"6' 9""",240,"$2,087,519",25,1998-08-15,"Luanda, Angola",--
+178,TOR,Davion Mitchell,15,PG,"6' 0""",202,"$6,451,230",25,1998-09-05,"Hinesville, Georgia",Bench
+179,TOR,Jonathan Mogbo,2,F,"6' 6""",225,"$1,862,265",22,2001-10-29,"West Palm Beach, Florida",--
+180,TOR,Kelly Olynyk,41,PF,"6' 11""",240,"$12,804,878",33,1991-04-19,"Toronto, Ontario",Starter
+181,TOR,Jakob Poeltl,19,C,"7' 0""",260,"$19,500,000",28,1995-10-15,"Vienna, Austria",Starter
+182,TOR,Immanuel Quickley,5,SG,"6' 2""",190,"$32,500,000",25,1999-06-17,"Havre de Grace, Maryland",Starter
+183,TOR,Jahmi'us Ramsey,37,PG,"6' 3""",190,--,23,2001-06-09,"Arlington, Texas",--
+184,TOR,Jared Rhoden,8,G,"6' 5""",210,--,24,1999-08-27,"Baldwin, New York",--
+185,TOR,Jamal Shead,23,G,"6' 0""",201,"$1,862,265",22,2002-06-24,"Austin, Texas",--
+186,TOR,Garrett Temple,17,SF,"6' 5""",195,"$2,087,519",38,1986-05-08,"Baton Rouge, Louisiana",--
+187,TOR,Ja'Kobe Walter,14,G,"6' 4""",195,"$3,565,000",19,2004-09-04,"Dallas, Texas",--
+188,CHI,Lonzo Ball,2,PG,"6' 6""",197,"$21,395,348",26,1997-10-27,"Anaheim, California",--
+189,CHI,Matas Buzelis,14,F,"6' 10""",209,"$5,195,520",19,2004-10-13,"Chicago, Illinois",Bench
+190,CHI,Jevon Carter,5,PG,"6' 1""",200,"$6,500,000",28,1995-09-14,"Maywood, Illinois",--
+191,CHI,Torrey Craig,13,SF,"6' 7""",221,"$2,845,342",33,1990-12-19,"Columbia, South Carolina",Bench
+192,CHI,Ayo Dosunmu,11,SG,"6' 4""",200,"$7,000,000",24,2000-01-17,"Chicago, Illinois",Bench
+193,CHI,Chris Duarte,27,SG,"6' 6""",190,"$5,893,768",27,1997-06-13,"Puerto Plata, Dominican Republic",--
+194,CHI,Josh Giddey,3,SG,"6' 8""",210,"$8,352,367",21,2002-10-10,"Melbourne, Australia",Starter
+195,CHI,Talen Horton-Tucker,22,SF,"6' 4""",233,--,23,2000-11-25,"Chicago, Illinois",--
+196,CHI,Zach LaVine,8,SG,"6' 5""",205,"$43,031,940",29,1995-03-10,"Renton, Washington",Starter
+197,CHI,E.J. Liddell,32,F,"6' 7""",240,--,23,2000-12-18,"Belleville, Illinois",--
+198,CHI,Julian Phillips,15,F,"6' 8""",197,"$1,891,857",20,2003-11-05,"Killeen, Texas",--
+199,CHI,Adama Sanogo,21,C,"6' 9""",245,--,22,2002-02-12,"Bamako, Mali",--
+200,CHI,Jalen Smith,25,PF,"6' 10""",235,"$8,571,429",24,2000-03-16,"Portsmouth, Virginia",Bench
+201,CHI,DJ Steward,00,G,"6' 2""",162,--,23,2001-10-02,"Chicago, Illinois",--
+202,CHI,Dalen Terry,25,F,"6' 7""",200,"$3,510,480",21,2002-07-12,"Tempe, Arizona",Bench
+203,CHI,Nikola Vucevic,9,C,"6' 10""",260,"$20,000,000",33,1990-10-24,"Morges, Switzerland",Starter
+204,CHI,Coby White,0,PG,"6' 5""",206,"$12,000,000",24,2000-02-16,"Goldsboro, North Carolina",Starter
+205,CHI,Patrick Williams,44,PF,"6' 7""",231,"$18,500,000",22,2001-08-26,"Charlotte, North Carolina",Starter
+206,CLE,Jarrett Allen,31,C,"6' 11""",248,"$20,000,000",26,1998-04-21,"San Diego, California",Starter
+207,CLE,Emoni Bates,21,F,"6' 9""",190,--,20,2004-01-28,"Ann Arbor, Michigan",--
+208,CLE,Jules Bernard,14,SG,"6' 6""",205,--,24,2000-01-21,"Los Angeles, California",--
+209,CLE,Omar Cook,--,G,"6' 1""",190,--,42,1982-01-28,"Brooklyn, New York",--
+210,CLE,Darius Garland,10,PG,"6' 1""",186,"$36,725,670",24,2000-01-26,"Gary, Indiana",Starter
+211,CLE,Ty Jerome,2,SG,"6' 5""",200,"$2,560,975",26,1997-07-08,"New York, New York",--
+212,CLE,Caris LeVert,3,SG,"6' 6""",205,"$16,615,384",29,1994-08-25,"Columbus, Ohio",Bench
+213,CLE,Sam Merrill,5,SG,"6' 4""",205,"$2,164,993",28,1996-05-15,"Salt Lake City, Utah",--
+214,CLE,Donovan Mitchell,45,SG,"6' 3""",215,"$35,410,310",27,1996-09-07,"Elmsford, New York",Starter
+215,CLE,Evan Mobley,4,PF,"7' 0""",215,"$11,227,809",23,2001-06-18,"San Diego, California",Starter
+216,CLE,Pete Nance,8,PF,"6' 11""",230,--,24,2000-02-19,"Akron, Ohio",--
+217,CLE,Georges Niang,20,SF,"6' 7""",235,"$8,500,000",31,1993-06-17,"Lawrence, Massachusetts",Bench
+218,CLE,Isaac Okoro,35,SF,"6' 5""",225,"$10,185,185",23,2001-01-26,"Atlanta, Georgia",Bench
+219,CLE,Craig Porter Jr.,9,G,"6' 2""",185,"$1,891,857",24,2000-02-26,"Terre Haute, Indiana",Bench
+220,CLE,Max Strus,1,SG,"6' 5""",215,"$15,212,068",28,1996-03-28,"Hickory Hills, Illinois",Starter
+221,CLE,Tristan Thompson,13,C,"6' 9""",250,"$2,087,519",33,1991-03-13,"Toronto, Ontario",--
+222,CLE,JT Thor,15,F,"6' 9""",215,"$1,988,598",21,2002-08-26,"Omaha, Nebraska",--
+223,CLE,Luke Travers,33,G,"6' 7""",208,--,23,2001-09-03,"Perth, Australia",--
+224,CLE,Jaylon Tyson,24,F,"6' 6""",218,"$3,326,160",21,2002-12-02,"Allen, Texas",--
+225,CLE,Dean Wade,32,PF,"6' 9""",219,"$6,166,667",27,1996-11-20,"Wichita, Kansas",Bench
+226,DET,Malik Beasley,5,SG,"6' 4""",187,"$6,000,000",27,1996-11-26,"Atlanta, Georgia",Starter
+227,DET,Cade Cunningham,2,PG,"6' 6""",217,"$13,940,658",22,2001-09-25,"Arlington, Texas",Starter
+228,DET,Jalen Duren,0,C,"6' 10""",250,"$4,536,840",20,2003-11-18,"New Castle, Delaware",Starter
+229,DET,Simone Fontecchio,19,F,"6' 7""",200,"$7,692,308",28,1995-12-09,"Pescara, Italy",Bench
+230,DET,Tim Hardaway Jr.,8,SF,"6' 5""",205,"$16,193,183",57,1966-09-01,"Chicago, Illinois",Bench
+231,DET,Tobias Harris,12,F,"6' 9""",235,"$25,365,854",31,1992-07-15,"Islip, New York",Starter
+232,DET,Ron Holland II,00,F,"6' 7""",197,"$8,245,320",18,2005-07-07,"Duncanville, Texas",--
+233,DET,Jaden Ivey,23,PG,"6' 4""",195,"$7,977,240",22,2002-02-13,"South Bend, Indiana",Starter
+234,DET,Daniss Jenkins,24,G,"6' 4""",185,--,22,2001-08-17,"Dallas, Texas",--
+235,DET,Bobi Klintman,34,F,"6' 9""",212,"$1,257,153",21,2003-03-06,"Malmo, Sweden",--
+236,DET,Wendell Moore Jr.,14,G,"6' 5""",214,"$2,537,040",22,2001-09-18,"Richmond, Virginia",--
+237,DET,Paul Reed,7,F,"6' 9""",210,"$7,723,000",25,1999-06-14,"Orlando, Florida",Bench
+238,DET,Marcus Sasser,25,G,"6' 2""",195,"$2,755,080",23,2000-09-21,"Dallas, Texas",Bench
+239,DET,Isaiah Stewart,28,C,"6' 9""",250,"$15,000,000",23,2001-05-22,"Rochester, New York",Bench
+240,DET,Ausar Thompson,9,F,"6' 7""",215,"$8,376,000",21,2003-01-30,"San Leandro, California",--
+241,IND,Enrique Freeman,8,F,"6' 7""",215,--,23,2000-07-29,"Cleveland, Ohio",--
+242,IND,Johnny Furphy,12,F,"6' 9""",189,"$1,850,842",19,2004-12-08,"Melbourne, Australia",--
+243,IND,Tyrese Haliburton,0,PG,"6' 5""",190,"$42,176,000",24,2000-02-29,"Oshkosh, Wisconsin",Starter
+244,IND,Isaiah Jackson,22,SF,"6' 10""",225,"$4,435,381",22,2002-01-10,"Pontiac, Michigan",Bench
+245,IND,Quenton Jackson,29,G,"6' 5""",175,--,25,1998-09-15,"Los Angeles, California",--
+246,IND,James Johnson,16,PF,"6' 7""",239,"$2,087,519",37,1987-02-20,"Cheyenne, Wyoming",--
+247,IND,Bennedict Mathurin,00,SG,"6' 6""",195,"$7,245,720",22,2002-06-19,"Montreal, Quebec",Bench
+248,IND,T.J. McConnell,9,PG,"6' 2""",190,"$9,300,000",32,1992-03-25,"Pittsburgh, Pennsylvania",Bench
+249,IND,Andrew Nembhard,2,PG,"6' 5""",193,"$2,019,699",24,2000-01-16,"Aurora, Ontario",Starter
+250,IND,Aaron Nesmith,23,SF,"6' 6""",215,"$11,000,000",24,1999-10-16,"Charleston, South Carolina",Starter
+251,IND,Tristen Newton,4,G,"6' 5""",190,--,23,2001-04-26,"Pensacola, Florida",--
+252,IND,Ben Sheppard,26,G,"6' 6""",200,"$2,663,880",22,2001-07-16,"Atlanta, Georgia",Bench
+253,IND,Pascal Siakam,43,PF,"6' 8""",230,"$42,176,000",30,1994-04-02,"Douala, Cameroon",Starter
+254,IND,Obi Toppin,1,PF,"6' 9""",210,"$12,946,429",26,1998-03-04,"Brooklyn, New York",Bench
+255,IND,Myles Turner,33,C,"6' 11""",250,"$19,928,500",28,1996-03-24,"Bedford, Texas",Starter
+256,IND,Jarace Walker,5,F,"6' 8""",235,"$6,362,520",20,2003-09-04,"New Freedom, Pennsylvania",--
+257,IND,James Wiseman,13,C,"7' 0""",250,"$2,237,691",23,2001-03-31,"Nashville, Tennessee",--
+258,MIL,Giannis Antetokounmpo,34,PF,"6' 11""",254,"$48,787,676",29,1994-12-06,"Athens, Greece",Starter
+259,MIL,MarJon Beauchamp,3,F,"6' 6""",203,"$2,733,720",23,2000-10-12,"Yakima, Washington",--
+260,MIL,Pat Connaughton,24,SG,"6' 5""",216,"$9,423,869",31,1993-01-06,"Arlington, Massachusetts",Starter
+261,MIL,AJ Green,20,G,"6' 4""",209,"$2,120,693",24,1999-09-27,"Cedar Falls, Iowa",Bench
+262,MIL,Andre Jackson Jr.,44,G,"6' 7""",203,"$1,891,857",22,2001-11-13,"Amsterdam, New York",--
+263,MIL,AJ Johnson,77,G,"6' 5""",174,"$2,795,294",19,2004-12-01,"Fresno, California",--
+264,MIL,Damian Lillard,0,PG,"6' 3""",206,"$48,787,676",33,1990-07-15,"Oakland, California",Starter
+265,MIL,Chris Livingston,7,F,"6' 6""",228,"$1,891,857",20,2003-10-15,"Akron, Ohio",--
+266,MIL,Brook Lopez,11,C,"7' 1""",276,"$23,000,000",36,1988-04-01,"North Hollywood, California",Starter
+267,MIL,Khris Middleton,22,SF,"6' 7""",232,"$31,666,676",32,1991-08-12,"Charleston, South Carolina",Starter
+268,MIL,Anzejs Pasecniks,18,C,"7' 1""",240,--,28,1995-12-20,"Riga, Latvia",--
+269,MIL,Bobby Portis,9,F,"6' 10""",262,"$12,578,286",29,1995-02-10,"Little Rock, Arkansas",Bench
+270,MIL,Taurean Prince,12,PF,"6' 6""",219,"$2,087,519",30,1994-03-22,"San Marcos, Texas",Bench
+271,MIL,Liam Robbins,15,C,"7' 0""",250,--,25,1999-07-12,"Davenport, Iowa",--
+272,MIL,Ryan Rollins,13,G,"6' 3""",190,--,22,2002-07-03,"Detroit, Michigan",--
+273,MIL,Gary Trent Jr.,5,SG,"6' 4""",208,"$2,087,519",25,1974-09-22,"Columbus, Ohio",Bench
+275,MIL,Delon Wright,55,SG,"6' 5""",185,"$2,087,519",32,1992-04-26,"Los Angeles, California",Bench
+276,DEN,Trey Alexander,23,G,"6' 3""",187,--,21,2003-05-02,"Oklahoma City, Oklahoma",--
+277,DEN,Christian Braun,0,G,"6' 6""",210,"$3,089,640",23,2001-04-17,"Burlington, Kansas",Starter
+278,DEN,Vlatko Cancar,31,SF,"6' 8""",236,"$2,087,519",27,1997-04-10,"Koper, Slovenia",--
+279,DEN,Aaron Gordon,32,PF,"6' 8""",235,"$22,841,455",28,1995-09-16,"San Jose, California",Starter
+280,DEN,PJ Hall,25,C,"6' 8""",240,--,22,2002-02-21,"Spartanburg, South Carolina",--
+281,DEN,DaRon Holmes II,14,C,"6' 9""",236,"$3,065,640",21,2002-08-15,"Overland Park, Kansas",--
+282,DEN,Nikola Jokic,15,C,"7' 0""",284,"$51,415,938",29,1995-02-19,"Sombor, Serbia",Starter
+283,DEN,Spencer Jones,21,F,"6' 7""",225,--,23,2001-06-14,"Shawnee Mission, Kansas",--
+284,DEN,DeAndre Jordan,6,C,"6' 11""",265,"$2,087,519",35,1988-07-21,"Houston, Texas",--
+285,DEN,Jamal Murray,27,PG,"6' 4""",215,"$36,016,200",27,1997-02-23,"Kitchener, Ontario",Starter
+286,DEN,Zeke Nnaji,22,PF,"6' 11""",240,"$8,888,889",23,2001-01-09,"Hopkins, Minnesota",Bench
+287,DEN,Jalen Pickett,24,G,"6' 4""",202,"$1,891,857",24,1999-10-22,"Rochester, New York",--
+288,DEN,Michael Porter Jr.,1,SF,"6' 10""",218,"$35,859,950",26,1998-06-29,"Indianapolis, Indiana",Starter
+289,DEN,Dario Saric,9,PF,"6' 10""",225,"$5,168,000",30,1994-04-08,"Sibenik, Croatia",Bench
+290,DEN,Julian Strawther,3,G,"6' 7""",205,"$2,552,520",22,2002-04-18,"Las Vegas, Nevada",Bench
+291,DEN,Hunter Tyson,5,F,"6' 8""",215,"$1,891,857",24,2000-06-13,"Monroe, North Carolina",--
+292,DEN,Peyton Watson,8,F,"6' 8""",200,"$2,413,560",21,2002-09-11,"Beverly Hills, California",Bench
+293,DEN,Russell Westbrook,4,PG,"6' 4""",200,"$3,303,771",35,1988-11-12,"Long Beach, California",Bench
+294,MIN,Nickeil Alexander-Walker,9,SG,"6' 5""",193,"$4,312,500",25,1998-09-02,"Toronto, Ontario",Bench
+295,MIN,Keita Bates-Diop,31,SF,"6' 8""",229,"$2,654,644",28,1996-01-23,"Bloomington, Illinois",--
+296,MIN,Jaylen Clark,22,G,"6' 4""",203,--,22,2001-10-13,"Riverside, California",--
+297,MIN,Mike Conley,10,PG,"6' 1""",178,"$9,975,962",36,1987-10-11,"Fayetteville, Arkansas",Starter
+298,MIN,Donte DiVincenzo,0,SG,"6' 5""",205,"$11,445,000",27,1997-01-31,"Newark, Delaware",Bench
+299,MIN,Rob Dillingham,4,G,"6' 1""",165,"$6,262,920",19,2005-01-04,"Hickory, North Carolina",Bench
+300,MIN,PJ Dozier,35,G,"6' 6""",205,"$2,087,519",27,1996-10-25,"Columbia, South Carolina",--
+301,MIN,Anthony Edwards,5,SG,"6' 4""",225,"$42,176,400",22,2001-08-05,"Atlanta, Georgia",Starter
+302,MIN,Jesse Edwards,14,C,"7' 0""",233,--,24,2000-03-18,"Amsterdam, Netherlands",--
+303,MIN,Luka Garza,55,C,"6' 10""",233,"$2,162,606",25,1998-12-27,"Washington, District of Columbia",--
+304,MIN,Rudy Gobert,27,C,"7' 1""",257,"$43,827,587",32,1992-06-26,"Saint-Quentin, France",Starter
+305,MIN,Joe Ingles,7,SG,"6' 9""",235,"$2,087,519",36,1987-10-02,"Adelaide, Australia",Bench
+306,MIN,Jaden McDaniels,3,PF,"6' 9""",201,"$23,017,242",23,2000-09-29,"Federal Way, Washington",Starter
+307,MIN,Leonard Miller,33,F,"6' 10""",214,"$1,891,857",20,2003-11-26,"Scarborough, Canada",--
+308,MIN,Josh Minott,8,F,"6' 8""",202,"$2,019,699",21,2002-11-25,"Boca Raton, Florida",--
+310,MIN,Julius Randle,30,PF,"6' 9""",253,"$33,073,920",29,1994-11-29,"Dallas, Texas",Starter
+311,MIN,Naz Reid,11,C,"6' 9""",240,"$13,986,432",24,1999-08-26,"Asbury Park, New Jersey",Bench
+312,MIN,Terrence Shannon Jr.,00,G,"6' 6""",215,"$2,546,640",23,2000-07-30,"Chicago , Illinois",--
+313,OKC,Alex Caruso,9,SG,"6' 5""",186,"$9,890,000",30,1994-02-28,"College Station, Texas",Starter
+314,OKC,Ousmane Dieng,13,F,"6' 10""",222,"$5,027,040",21,2003-05-21,"Villeneuve-sur-Lot, France",--
+315,OKC,Luguentz Dort,5,G,"6' 4""",220,"$16,500,000",25,1999-04-19,"Montreal, Quebec",Starter
+316,OKC,Alex Ducas,88,G,"6' 7""",220,--,23,2000-12-11,"Geraldton, Australia",--
+317,OKC,Adam Flagler,14,F,"6' 3""",195,--,24,1999-12-01,"Duluth, Georgia",--
+318,OKC,Shai Gilgeous-Alexander,2,PG,"6' 6""",200,"$35,859,950",25,1998-07-12,"Toronto, Ontario",Starter
+319,OKC,Isaiah Hartenstein,55,C,"7' 0""",255,"$30,000,000",26,1998-05-05,"Eugene, Oregon",--
+320,OKC,Chet Holmgren,7,PF,"7' 1""",213,"$10,880,640",22,2002-05-01,"Minneapolis, Minnesota",Starter
+321,OKC,Isaiah Joe,11,SG,"6' 3""",181,"$12,991,650",25,1999-07-02,"Fort Smith, Arkansas",Bench
+322,OKC,Dillon Jones,3,F,"6' 5""",240,"$2,622,360",22,2001-10-29,"Columbia, South Carolina",--
+323,OKC,Malevy Leons,17,F,"6' 9""",205,--,25,1999-09-23,"IJmuiden, Netherlands",--
+324,OKC,Ajay Mitchell,25,G,"6' 3""",190,--,22,2002-06-25,"Namur, Belgium",--
+325,OKC,Nikola Topic,44,G,"6' 6""",201,"$4,935,960",18,2005-08-10,"Novi Sad, Serbia",--
+326,OKC,Cason Wallace,22,G,"6' 4""",205,"$5,555,880",20,2003-11-07,"Dallas, Texas",Bench
+327,OKC,Aaron Wiggins,21,SG,"6' 6""",200,"$10,514,017",25,1999-01-02,"Greensboro, North Carolina",Bench
+328,OKC,Jalen Williams,8,F,"6' 6""",220,"$4,775,760",23,2001-04-14,"Denver, Colorado",Starter
+329,OKC,Jaylin Williams,6,F,"6' 10""",250,"$2,019,699",22,2002-06-29,"Fort Smith, Arkansas",Bench
+330,OKC,Kenrich Williams,34,SF,"6' 7""",210,"$6,669,000",29,1994-12-02,"Waco, Texas",Bench
+331,POR,Deni Avdija,8,SF,"6' 9""",240,"$15,625,000",23,2001-01-03,"Beit Zera, Israel",Starter
+332,POR,Deandre Ayton,2,C,"6' 11""",250,"$34,005,126",25,1998-07-23,"Nassau, Bahamas",Starter
+333,POR,Dalano Banton,5,G,"6' 9""",204,"$2,196,970",24,1999-11-07,"Toronto, Ontario",Bench
+334,POR,Toumani Camara,33,F,"6' 8""",220,"$1,891,857",24,2000-05-08,"Brussels, Belgium",Bench
+335,POR,Donovan Clingan,23,C,"7' 2""",280,"$6,586,440",20,2004-02-23,"Bristol, Connecticut",Bench
+336,POR,Jerami Grant,9,SF,"6' 8""",210,"$29,793,104",30,1994-03-12,"Portland, Oregon",Starter
+337,POR,Scoot Henderson,00,G,"6' 3""",196,"$10,259,160",20,2004-02-03,"Marietta, Georgia",Starter
+338,POR,Bryce McGowens,11,G,"6' 5""",190,"$2,019,699",21,2002-11-08,"Pendleton, South Carolina",--
+339,POR,Justin Minaya,10,F,"6' 7""",210,--,25,1999-03-26,"Harrington Park, New Jersey",--
+340,POR,Kris Murray,24,F,"6' 8""",215,"$2,990,040",23,2000-08-19,"Cedar Rapids, Iowa",Bench
+341,POR,Duop Reath,26,C,"6' 11""",245,"$2,048,780",28,1996-06-26,"Waat, South Sudan",--
+342,POR,Rayan Rupert,21,G,"6' 7""",195,"$1,891,857",20,2004-05-31,"Strasbourg, France",--
+343,POR,Shaedon Sharpe,17,SG,"6' 6""",200,"$6,614,160",21,2003-05-30,"London, Ontario",--
+344,POR,Anfernee Simons,1,SG,"6' 3""",195,"$25,892,857",25,1999-06-08,"Longwood, Florida",Starter
+345,POR,Matisse Thybulle,4,SG,"6' 5""",201,"$11,025,160",27,1997-03-04,"Scottsdale, Arizona",--
+346,POR,Jabari Walker,34,F,"6' 9""",215,"$2,019,699",21,2002-07-30,"Wichita, Kansas",Bench
+347,POR,Robert Williams III,35,C,"6' 9""",237,"$12,428,571",26,1997-10-17,"Shreveport, Louisiana",--
+348,UTAH,Jordan Clarkson,00,PG,"6' 5""",194,"$14,092,577",32,1992-06-07,"Tampa, Florida",Bench
+349,UTAH,Isaiah Collier,13,G,"6' 5""",210,"$2,520,120",19,2004-10-08,"Atlanta, Georgia",--
+350,UTAH,John Collins,20,PF,"6' 9""",234,"$26,580,000",26,1997-09-23,"Layton, Utah",Starter
+351,UTAH,Drew Eubanks,15,PF,"6' 9""",245,"$5,000,000",27,1997-02-01,"Starkville, Mississippi",Bench
+352,UTAH,Kyle Filipowski,22,F,"6' 11""",248,"$3,000,000",20,2003-11-07,"Middletown, New York",--
+353,UTAH,Keyonte George,3,G,"6' 4""",185,"$4,084,200",20,2003-11-08,"Lewisville, Texas",Starter
+354,UTAH,Taylor Hendricks,0,F,"6' 9""",210,"$5,848,680",20,2003-11-22,"Fort Lauderdale, Florida",Bench
+355,UTAH,Johnny Juzang,33,G,"6' 7""",215,"$3,087,519",23,2001-03-17,"Los Angeles, California",--
+356,UTAH,Walker Kessler,24,C,"7' 1""",245,"$2,965,920",22,2001-07-26,"Atlanta, Georgia",Starter
+357,UTAH,Lauri Markkanen,23,PF,"7' 0""",238,"$42,176,400",27,1997-05-22,"Vantaa, Finland",Starter
+358,UTAH,Patty Mills,8,PG,"6' 2""",180,"$2,087,519",35,1988-08-11,"Canberra, Australia",--
+359,UTAH,Svi Mykhailiuk,19,SG,"6' 7""",205,"$3,500,000",27,1997-06-10,"Cherkasy, Ukraine",--
+360,UTAH,Micah Potter,25,C,"6' 10""",248,--,26,1998-04-06,"Mentor, Ohio",--
+361,UTAH,Jason Preston,10,G,"6' 4""",187,--,24,1999-08-10,"Orlando, Florida",--
+362,UTAH,Brice Sensabaugh,28,F,"6' 6""",235,"$2,571,480",20,2003-10-30,"Orlando, Florida",Bench
+363,UTAH,Collin Sexton,2,PG,"6' 1""",192,"$18,350,000",25,1999-01-04,"Marietta, Georgia",Starter
+364,UTAH,Oscar Tshiebwe,44,C,"6' 9""",260,--,24,1999-11-27,"Lubumbashi, Democratic Republic of the Congo",--
+365,UTAH,Cody Williams,5,F,"6' 8""",190,"$5,485,080",19,2004-11-20,"San Luis Obispo, California",Bench
+366,GS,Kyle Anderson,1,SF,"6' 9""",245,"$8,780,488",30,1993-09-20,"New York, New York",Bench
+367,GS,Reece Beekman,3,G,"6' 1""",196,--,22,2001-10-08,"Milwaukee, Wisconsin",--
+368,GS,Stephen Curry,30,PG,"6' 3""",200,"$55,761,216",36,1988-03-14,"Akron, Ohio",Starter
+369,GS,Draymond Green,23,PF,"6' 6""",235,"$24,107,143",34,1990-03-04,"Saginaw, Michigan",Starter
+370,GS,Buddy Hield,7,SG,"6' 4""",220,"$8,780,488",31,1992-12-17,"Freeport, Bahamas",Bench
+371,GS,Blake Hinson,26,SG,"6' 7""",235,--,24,1999-12-26,"Deltona, Florida",--
+372,GS,Trayce Jackson-Davis,32,F,"6' 8""",245,"$1,891,857",24,2000-02-22,"Greenwood, Indiana",Bench
+373,GS,Jonathan Kuminga,00,PF,"6' 7""",225,"$7,636,154",21,2002-10-06,"Goma, Democratic Republic of the Congo",Starter
+374,GS,Kevon Looney,5,F,"6' 9""",257,"$8,000,000",28,1996-02-06,"Milwaukee, Wisconsin",--
+375,GS,De'Anthony Melton,8,SG,"6' 3""",200,"$12,822,000",26,1998-05-28,"North Hollywood, California",Bench
+376,GS,Moses Moody,4,SG,"6' 5""",215,"$5,803,269",22,2002-05-31,"Little Rock, Arkansas",--
+377,GS,Gary Payton II,0,SG,"6' 3""",195,"$9,130,000",55,1968-07-23,"Oakland, California",Bench
+378,GS,Brandin Podziemski,2,G,"6' 4""",203,"$3,519,960",21,2003-02-25,"Greenfield, Wisconsin",Starter
+379,GS,Quinten Post,21,C,"7' 0""",244,--,24,2000-03-21,"Amsterdam, Netherlands",--
+380,GS,Jackson Rowe,44,F,"6' 7""",210,--,27,1997-01-04,"Toronto, Canada",--
+381,GS,Gui Santos,15,F,"6' 7""",218,"$1,891,857",22,2002-06-22,"Brasilia, Brazil",--
+382,GS,Pat Spencer,61,G,"6' 3""",205,--,27,1996-07-04,"Davidsonville, Maryland",--
+383,GS,Lindy Waters III,43,F,"6' 6""",198,"$2,196,970",26,1997-07-28,"Norman, Oklahoma",--
+384,GS,Andrew Wiggins,22,SF,"6' 7""",209,"$26,276,786",29,1995-02-23,"Toronto, Ontario",Starter
+385,LAC,Mo Bamba,4,C,"7' 0""",231,"$2,087,519",26,1998-05-12,"Harlem, New York",Bench
+386,LAC,Nicolas Batum,33,PF,"6' 8""",230,"$4,668,000",35,1988-12-14,"Lisieux, France",Bench
+387,LAC,Kobe Brown,21,G,"6' 7""",250,"$2,533,920",24,2000-01-01,"Huntsville, Alabama",--
+388,LAC,Cam Christie,12,G,"6' 5""",190,"$1,157,153",18,2005-07-24,"Arlington Heights, Illinois",--
+389,LAC,Amir Coffey,7,SG,"6' 7""",210,"$3,938,271",27,1997-06-17,"Hopkins, Minnesota",Starter
+390,LAC,Nate Darling,30,G,"6' 5""",200,--,26,1998-08-30,"Halifax, Nova Scotia",--
+391,LAC,Kris Dunn,8,G,"6' 3""",205,"$5,168,000",30,1994-03-18,"New London, Connecticut",Bench
+392,LAC,Trentyn Flowers,9,G,"6' 7""",201,--,19,2005-03-08,"Towson, Maryland",--
+393,LAC,James Harden,1,SG,"6' 5""",220,"$33,653,846",34,1989-08-26,"Los Angeles, California",Starter
+394,LAC,Bones Hyland,5,PG,"6' 2""",169,"$4,158,439",23,2000-09-14,"Wilmington, Delaware",--
+395,LAC,Kai Jones,23,PF,"6' 11""",221,--,23,2001-01-19,"Nassau, Bahamas",--
+396,LAC,Derrick Jones Jr.,55,SF,"6' 6""",210,"$9,523,810",27,1997-02-15,"Chester, Pennsylvania",Starter
+397,LAC,Braxton Key,11,F,"6' 8""",225,--,27,1997-02-14,"Charlotte, North Carolina",--
+398,LAC,Kawhi Leonard,2,SF,"6' 7""",225,"$49,350,000",33,1991-06-29,"Los Angeles, California",--
+399,LAC,Terance Mann,14,SG,"6' 5""",215,"$11,423,077",27,1996-10-18,"Brooklyn, New York",Starter
+400,LAC,Jordan Miller,11,G,"6' 5""",194,--,24,2000-01-23,"Anaheim, California",--
+401,LAC,Kevin Porter Jr.,77,G,"6' 4""",203,"$2,237,691",74,1950-04-17,"Chicago, Illinois",Bench
+402,LAC,Norman Powell,24,G,"6' 4""",215,"$19,241,379",31,1993-05-25,"San Diego, California",Bench
+403,LAC,P.J. Tucker,17,PF,"6' 5""",245,"$11,539,000",39,1985-05-05,"Raleigh, North Carolina",--
+405,LAC,Ivica Zubac,40,C,"7' 0""",240,"$11,743,210",27,1997-03-18,"Mostar, Bosnia and Herzegovina",Starter
+406,LAL,Colin Castleton,14,C,"6' 10""",250,--,24,2000-05-25,"Pembroke Pines, Florida",--
+407,LAL,Max Christie,12,G,"6' 5""",190,"$7,142,857",21,2003-02-10,"Arlington Heights, Illinois",Bench
+408,LAL,Anthony Davis,3,PF,"6' 10""",253,"$43,219,440",31,1993-03-11,"Chicago, Illinois",Starter
+409,LAL,Rui Hachimura,28,PF,"6' 8""",230,"$17,000,000",26,1998-02-08,"Toyama, Japan",Starter
+410,LAL,Jaxson Hayes,11,C,"7' 0""",220,"$2,463,946",24,2000-05-23,"Norman, Oklahoma",Bench
+411,LAL,Jalen Hood-Schifino,0,G,"6' 5""",215,"$3,879,840",21,2003-06-19,"Pittsburgh, Pennsylvania",--
+412,LAL,Bronny James,9,G,"6' 2""",210,"$1,157,153",19,2004-10-06,"Akron, Ohio",--
+413,LAL,LeBron James,23,SF,"6' 9""",250,"$48,728,845",39,1984-12-30,"Akron, Ohio",Starter
+414,LAL,Dalton Knecht,4,G,"6' 5""",204,"$3,819,120",23,2001-04-19,"Fargo, North Dakota",Bench
+415,LAL,Christian Koloko,10,C,"7' 0""",230,--,24,2000-06-20,"Douala, Cameroon",--
+416,LAL,Maxwell Lewis,20,F,"6' 7""",195,"$1,891,857",21,2002-07-27,"Las Vegas, Nevada",--
+417,LAL,Quincy Olivari,41,G,"6' 3""",200,--,23,2001-05-27,"Atlanta, Georgia",--
+418,LAL,Austin Reaves,15,SG,"6' 5""",197,"$12,976,362",26,1998-05-29,"Newark, Arkansas",Starter
+419,LAL,Cam Reddish,5,SF,"6' 7""",217,"$2,463,946",24,1999-09-01,"Norristown, Pennsylvania",--
+420,LAL,D'Angelo Russell,1,PG,"6' 3""",193,"$18,692,307",28,1996-02-23,"Louisville, Kentucky",Starter
+421,LAL,Jarred Vanderbilt,2,PF,"6' 8""",214,"$10,714,286",25,1999-04-03,"Houston, Texas",Bench
+422,LAL,Gabe Vincent,7,PG,"6' 2""",200,"$11,000,000",28,1996-06-14,"Modesto, California",Bench
+423,LAL,Christian Wood,35,F,"6' 8""",214,"$3,036,040",28,1995-09-27,"Long Beach, California",--
+424,PHX,Grayson Allen,8,SG,"6' 4""",198,"$15,625,000",28,1995-10-08,"Jacksonville, Florida",Bench
+425,PHX,Bradley Beal,3,SG,"6' 4""",207,"$50,203,930",31,1993-06-28,"St. Louis, Missouri",Starter
+426,PHX,Bol Bol,11,C,"7' 3""",220,"$2,087,519",24,1999-11-16,"Khartoum, Sudan",--
+427,PHX,Devin Booker,1,SG,"6' 6""",206,"$49,205,800",27,1996-10-30,"Grand Rapids, Michigan",Starter
+428,PHX,Jalen Bridges,15,F,"6' 9""",225,--,23,2001-05-14,"Fairmont, West Virginia",--
+429,PHX,Ryan Dunn,0,F,"6' 6""",216,"$2,538,240",21,2003-01-07,"New Hyde Park, New York",--
+430,PHX,Kevin Durant,35,PF,"6' 11""",240,"$51,179,021",35,1988-09-29,"Washington, District of Columbia",Starter
+431,PHX,Collin Gillespie,21,G,"6' 1""",195,--,25,1999-06-25,"Huntingdon Valley, Pennsylvania",--
+432,PHX,Oso Ighodaro,4,C,"6' 10""",222,"$1,157,153",22,2002-07-02,"Mesa, Arizona",--
+433,PHX,Tyus Jones,5,PG,"6' 1""",196,"$2,087,519",28,1996-05-10,"Burnsville, Minnesota",Starter
+434,PHX,Frank Kaminsky,33,PF,"7' 0""",240,--,31,1993-04-04,"Lisle, Illinois",--
+435,PHX,Damion Lee,10,SG,"6' 6""",210,"$2,087,519",31,1992-10-21,"Baltimore, Maryland",--
+436,PHX,Monte Morris,23,PG,"6' 2""",183,"$2,087,519",29,1995-06-27,"Grand Rapids, Michigan",Bench
+437,PHX,Jusuf Nurkic,20,C,"7' 0""",290,"$18,125,000",29,1994-08-23,"Tuzla, Bosnia and Herzegovina",Starter
+438,PHX,Royce O'Neale,00,PF,"6' 6""",226,"$9,821,429",31,1993-06-05,"Killeen, Texas",Bench
+439,PHX,Josh Okogie,2,SF,"6' 4""",213,"$8,250,000",25,1998-09-01,"Lagos, Nigeria",Bench
+440,PHX,Mason Plumlee,44,C,"6' 10""",254,"$2,087,519",34,1990-03-05,"Fort Wayne, Indiana",Bench
+442,SAC,Devin Carter,22,G,"6' 2""",188,"$4,702,800",22,2002-03-18,"West Palm Beach, Florida",--
+443,SAC,Isaiah Crawford,24,F,"6' 6""",220,--,22,2001-11-01,"Fort Worth, Texas",--
+444,SAC,Antoine Davis,--,G,"6' 2""",175,--,26,1998-10-03,"Bloomington, Indiana",--
+445,SAC,DeMar DeRozan,10,SF,"6' 6""",220,"$23,400,000",34,1989-08-07,"Compton, California",Starter
+446,SAC,Keon Ellis,23,G,"6' 5""",175,"$2,120,693",24,2000-01-08,"Eustis, Florida",Bench
+447,SAC,De'Aaron Fox,5,PG,"6' 3""",190,"$34,848,340",26,1997-12-20,"New Orleans, Louisiana",Starter
+448,SAC,Kevin Huerter,9,SG,"6' 7""",190,"$16,830,357",25,1998-08-27,"Albany, New York",Starter
+449,SAC,Colby Jones,20,G,"6' 6""",205,"$2,120,693",22,2002-05-28,"Birmingham, Alabama",--
+450,SAC,Isaac Jones,17,C,"6' 9""",245,--,24,2000-07-11,"Spanaway, Washington",--
+451,SAC,Mason Jones,8,G,"6' 4""",190,--,25,1998-07-21,"Dallas, Texas",--
+452,SAC,Alex Len,25,C,"7' 0""",250,"$2,087,519",31,1993-06-16,"Antratsit, Ukraine",Bench
+453,SAC,Trey Lyles,41,PF,"6' 9""",234,"$8,000,000",28,1995-11-05,"Saskatoon, Saskatchewan",Bench
+454,SAC,Doug McDermott,20,SF,"6' 6""",225,--,32,1992-01-03,"Grand Forks, North Dakota",--
+455,SAC,Jordan McLaughlin,6,PG,"6' 0""",185,"$2,087,519",28,1996-04-09,"Etiwanda, California",Bench
+456,SAC,Malik Monk,0,SG,"6' 3""",200,"$17,405,202",26,1998-02-04,"Jonesboro, Arkansas",Bench
+457,SAC,Keegan Murray,13,SF,"6' 8""",215,"$8,809,560",23,2000-08-19,"Cedar Rapids, Iowa",Starter
+458,SAC,Shareef O'Neal,--,F,"6' 10""",225,--,24,2000-01-11,"Los Angeles, California",--
+459,SAC,Orlando Robinson,77,C,"6' 10""",235,"$2,087,519",23,2000-07-10,"Las Vegas, Nevada",--
+460,SAC,Domantas Sabonis,11,PF,"6' 11""",240,"$40,500,000",28,1996-05-03,"Portland, Oregon",Starter
+461,SAC,Drew Timme,--,C,"6' 10""",235,--,24,2000-09-09,"Richardson, Texas",--
+462,ATL,Dominick Barlow,0,F,"6' 10""",220,--,21,2003-05-26,"Hackensack, New Jersey",--
+463,ATL,Bogdan Bogdanovic,13,SG,"6' 6""",220,"$17,260,000",31,1992-08-18,"Belgrade, Serbia",Starter
+464,ATL,Kobe Bufkin,4,G,"6' 4""",195,"$4,299,000",20,2003-09-21,"Grand Rapids, Michigan",--
+465,ATL,Clint Capela,15,C,"6' 10""",240,"$22,265,280",30,1994-05-18,"Geneva, Switzerland",Starter
+466,ATL,Dyson Daniels,5,G,"6' 7""",203,"$6,059,520",21,2003-03-17,"Bendigo, Australia",Bench
+467,ATL,Mouhamed Gueye,18,F,"6' 11""",210,"$1,891,858",21,2002-11-09,"Dakar, Senegal",--
+468,ATL,De'Andre Hunter,12,SF,"6' 7""",225,"$21,696,429",26,1997-12-02,"Philadelphia, Pennsylvania",Bench
+469,ATL,Jalen Johnson,1,SF,"6' 9""",220,"$4,510,905",22,2001-12-18,"Wausau, Wisconsin",Starter
+470,ATL,Vit Krejci,27,G,"6' 8""",195,"$2,162,606",24,2000-06-19,"Strakonice, Czechia",--
+472,ATL,Garrison Mathews,24,SG,"6' 5""",202,"$2,230,253",27,1996-10-24,"Franklin, Tennessee",Bench
+473,ATL,Larry Nance Jr.,22,PF,"6' 8""",242,"$11,205,000",65,1959-02-12,"Anderson, South Carolina",Bench
+474,ATL,Onyeka Okongwu,17,PF,"6' 9""",45,"$14,000,000",23,2000-12-11,"Los Angeles, California",Bench
+475,ATL,Zaccharie Risacher,10,PF,"6' 9""",215,"$12,569,040",19,2005-04-08,"Malaga, Spain",Starter
+476,ATL,David Roddy,8,F,"6' 5""",255,"$2,847,240",23,2001-03-27,"Minneapolis, Minnesota",--
+477,ATL,Keaton Wallace,2,G,"6' 3""",185,--,25,1999-02-26,"Richardson, Texas",--
+478,ATL,Trae Young,11,PG,"6' 1""",180,"$43,031,940",25,1998-09-19,"Lubbock, Texas",Starter
+479,ATL,Cody Zeller,41,C,"6' 11""",247,"$3,500,000",31,1992-10-05,"Washington, Indiana",--
+480,CHA,LaMelo Ball,1,PG,"6' 7""",190,"$35,147,000",22,2001-08-22,"Anaheim, California",Starter
+481,CHA,Miles Bridges,0,SF,"6' 6""",235,"$27,173,913",26,1998-03-21,"Flint, Michigan",Starter
+482,CHA,Seth Curry,30,SG,"6' 1""",190,"$2,087,519",33,1990-08-23,"Charlotte, North Carolina",Bench
+483,CHA,Moussa Diabate,14,F,"6' 9""",210,--,22,2002-01-21,"Paris, France",--
+484,CHA,Taj Gibson,67,F,"6' 9""",232,"$2,087,519",39,1985-06-24,"Brooklyn, New York",--
+485,CHA,Josh Green,10,SG,"6' 5""",200,"$12,654,321",23,2000-11-16,"Sydney, Australia",Bench
+486,CHA,DaQuan Jeffries,8,SG,"6' 5""",222,"$2,425,204",27,1997-08-30,"Edmond, Oklahoma",--
+487,CHA,Tre Mann,23,PG,"6' 4""",190,"$4,908,189",23,2001-02-03,"Gainesville, Florida",--
+488,CHA,Cody Martin,11,SF,"6' 6""",205,"$8,120,000",28,1995-09-28,"Winston-Salem, North Carolina",Bench
+489,CHA,Vasilije Micic,22,G,"6' 5""",205,"$7,723,000",30,1994-01-13,"Kraljevo, Serbia",Bench
+490,CHA,Brandon Miller,24,F,"6' 8""",205,"$11,424,600",21,2002-11-22,"Antioch, Tennessee",Starter
+491,CHA,Nick Richards,4,C,"7' 0""",260,"$5,000,000",26,1997-11-29,"Kingston, Jamaica",Bench
+492,CHA,Tidjane Salaun,31,F,"6' 9""",205,"$7,488,720",18,2005-08-10,"Paris, France",--
+493,CHA,K.J. Simpson,25,G,"6' 2""",190,--,22,2002-08-08,"Panorama City, California",--
+494,CHA,Nick Smith Jr.,8,G,"6' 3""",185,"$2,587,200",20,2004-04-18,"Jacksonville, Arkansas",--
+495,CHA,Duane Washington Jr.,98,PG,"6' 2""",197,"$2,162,607",24,1964-08-31,"Eschwege, Germany",--
+496,CHA,Grant Williams,2,PF,"6' 6""",235,"$13,025,250",25,1998-11-30,"Houston, Texas",Starter
+497,CHA,Mark Williams,5,C,"7' 0""",260,"$4,094,280",22,2001-12-16,"Norfolk, Virginia",Starter
+498,MIA,Bam Adebayo,13,C,"6' 9""",255,"$34,848,340",26,1997-07-18,"Newark, New Jersey",Starter
+499,MIA,Thomas Bryant,31,C,"6' 10""",248,"$2,087,519",26,1997-07-31,"Rochester, New York",--
+500,MIA,Alec Burks,18,SG,"6' 5""",214,"$2,087,519",32,1991-07-20,"Grandview, Missouri",--
+501,MIA,Jimmy Butler,22,SF,"6' 7""",230,"$48,798,677",34,1989-09-14,"Houston, Texas",Starter
+502,MIA,Josh Christopher,8,SG,"6' 4""",215,--,22,2001-12-08,"Carson, California",--
+503,MIA,Tyler Herro,14,PG,"6' 5""",195,"$29,000,000",24,2000-01-20,"Milwaukee, Wisconsin",Starter
+504,MIA,Haywood Highsmith,24,F,"6' 5""",220,"$5,200,000",27,1996-12-09,"Baltimore, Maryland",Bench
+505,MIA,Jaime Jaquez Jr.,11,G,"6' 6""",225,"$3,685,800",23,2001-02-18,"Irvine, California",Bench
+506,MIA,Keshad Johnson,16,F,"6' 6""",225,--,23,2001-06-23,"Oakland, California",--
+507,MIA,Nikola Jovic,5,F,"6' 10""",205,"$2,464,200",21,2003-06-09,"Leicester, United Kingdom",Starter
+508,MIA,Pelle Larsson,9,G,"6' 6""",215,"$1,157,143",23,2001-02-23,"Stockholm, Sweden",--
+509,MIA,Nassir Little,25,SF,"6' 6""",220,"$6,750,000",24,2000-02-11,"Pensacola, Florida",--
+510,MIA,Kevin Love,42,PF,"6' 8""",251,"$3,850,000",35,1988-09-07,"Santa Monica, California",Bench
+511,MIA,Zyon Pullin,17,G,"6' 4""",205,--,23,2001-03-03,"Pleasant Hill, California",--
+512,MIA,Josh Richardson,0,SG,"6' 5""",200,"$3,051,153",30,1993-09-15,"Edmond, Oklahoma",Bench
+513,MIA,Duncan Robinson,55,F,"6' 7""",215,"$19,406,000",30,1994-04-22,"York, Maine",Bench
+514,MIA,Terry Rozier,2,SG,"6' 1""",190,"$24,924,126",30,1994-03-17,"Youngstown, Ohio",Starter
+515,MIA,Dru Smith,12,G,"6' 2""",203,--,26,1997-12-30,"Evansville, Indiana",--
+516,MIA,Isaiah Stevens,50,G,"6' 0""",185,--,23,2000-11-01,"Allen, Texas",--
+517,MIA,Kel'el Ware,7,C,"7' 0""",240,"$4,231,800",20,2004-04-20,"North Little Rock, Arkansas",--
+518,MIA,Warren Washington,--,C,"7' 0""",225,--,24,2000-03-03,"Phoenix, Arizona",--
+519,ORL,Cole Anthony,50,PG,"6' 3""",198,"$12,900,000",24,2000-05-15,"Portland, Oregon",Bench
+520,ORL,Paolo Banchero,5,PF,"6' 10""",250,"$12,160,800",21,2002-11-12,"Seattle, Washington",Starter
+521,ORL,Goga Bitadze,35,C,"6' 11""",235,"$9,057,971",24,1999-07-20,"Sagarejo, Georgia",--
+522,ORL,Anthony Black,0,G,"6' 7""",212,"$7,607,760",20,2004-01-20,"Duncanville, Texas",Bench
+523,ORL,Kentavious Caldwell-Pope,3,SG,"6' 5""",204,"$22,757,000",31,1993-02-18,"Thomaston, Georgia",Starter
+524,ORL,Wendell Carter Jr.,34,C,"6' 10""",262,"$11,950,000",25,1999-04-16,"Atlanta, Georgia",Starter
+525,ORL,Jarrett Culver,24,G,"6' 6""",195,--,25,1999-02-20,"Dallas, Texas",--
+526,ORL,Tristan da Silva,23,F,"6' 8""",217,"$3,628,440",23,2001-05-15,"Munich, Germany",--
+527,ORL,Gary Harris,14,SG,"6' 4""",205,"$6,730,769",29,1994-09-14,"Fishers, Indiana",Bench
+528,ORL,Caleb Houstan,2,G,"6' 8""",235,"$2,019,693",21,2003-01-09,"Mississauga, Ontario",--
+529,ORL,Jett Howard,13,G,"6' 8""",215,"$5,278,320",20,2003-09-14,"Chicago, Illinois",--
+530,ORL,Jonathan Isaac,1,PF,"6' 10""",240,"$25,000,000",26,1997-10-03,"The Bronx, New York",Bench
+531,ORL,Cory Joseph,10,PG,"6' 3""",200,"$3,303,771",33,1991-08-20,"Toronto, Ontario",--
+532,ORL,Mac McClung,8,G,"6' 2""",185,--,25,1999-01-06,"Gate City, Virginia",--
+533,ORL,Alex Morales,11,G,"6' 6""",180,--,26,1997-11-21,"Paterson, New Jersey",--
+534,ORL,Trevelin Queen,12,SG,"6' 6""",190,--,27,1997-02-25,"Baltimore, Maryland",--
+535,ORL,Jalen Slawson,18,F,"6' 7""",215,--,24,1999-10-22,"Summerville, South Carolina",--
+536,ORL,Jalen Suggs,4,SG,"6' 5""",205,"$9,188,385",23,2001-06-03,"St. Paul, Minnesota",Starter
+537,ORL,Ethan Thompson,55,G,"6' 5""",195,--,25,1999-05-04,"Harbor City, California",--
+538,ORL,Franz Wagner,22,SF,"6' 10""",230,"$7,007,092",22,2001-08-27,"Berlin, Germany",Starter
+539,ORL,Moritz Wagner,21,C,"6' 11""",250,"$11,000,000",27,1997-04-26,"Berlin, Germany",Bench
+540,WSH,Marvin Bagley III,35,PF,"6' 11""",235,"$12,500,000",25,1999-03-14,"Tempe, Arizona",--
+541,WSH,Patrick Baldwin Jr.,7,F,"6' 9""",220,"$2,448,840",21,2002-11-18,"Green Bay, Wisconsin",--
+542,WSH,Saddiq Bey,41,SF,"6' 8""",215,"$6,440,678",25,1999-04-09,"Charlotte, North Carolina",--
+543,WSH,Malcolm Brogdon,11,PG,"6' 5""",228,"$22,500,000",31,1992-12-11,"Atlanta, Georgia",--
+544,WSH,Jared Butler,4,SG,"6' 3""",193,"$2,196,970",23,2000-08-25,"Reserve, Louisiana",--
+545,WSH,John Butler Jr.,19,F,"7' 0""",175,--,21,2002-12-04,"Greenville, South Carolina",--
+546,WSH,Bub Carrington,8,G,"6' 4""",195,"$4,454,880",18,2005-07-21,"Baltimore, Maryland",Bench
+547,WSH,Justin Champagnie,9,SF,"6' 6""",206,--,23,2001-06-29,"Brooklyn, New York",--
+548,WSH,Bilal Coulibaly,0,SG,"6' 8""",195,"$6,945,240",19,2004-07-26,"Saint-Cloud, France",Bench
+549,WSH,Johnny Davis,1,G,"6' 5""",195,"$5,291,160",68,1955-10-21,"Detroit, Michigan",Bench
+550,WSH,Taylor Funk,21,F,"6' 8""",230,--,26,1997-11-09,"Lancaster, Pennsylvania",--
+551,WSH,Kyshawn George,18,F,"6' 7""",209,"$2,825,520",20,2003-12-12,"Aigle, Switzerland",Bench
+552,WSH,Anthony Gill,16,PF,"6' 8""",230,"$2,237,691",31,1992-10-17,"High Point, North Carolina",--
+553,WSH,Mouhamadou Gueye,16,F,"6' 9""",210,--,25,1998-07-06,"Staten Island, New York",--
+554,WSH,Richaun Holmes,22,F,"6' 10""",240,"$12,648,321",30,1993-10-15,"Lockport, Illinois",Bench
+555,WSH,Corey Kispert,24,SF,"6' 7""",220,"$5,705,888",25,1999-03-03,"Edmonds, Washington",Starter
+556,WSH,Kyle Kuzma,33,SF,"6' 10""",220,"$23,522,727",28,1995-07-24,"Flint, Michigan",Starter
+557,WSH,Jordan Poole,13,SG,"6' 4""",194,"$29,651,786",25,1999-06-19,"Milwaukee, Wisconsin",Starter
+558,WSH,Alex Sarr,12,PF,"7' 0""",224,"$11,245,680",19,2005-04-26,"Bordeaux, France",Starter
+559,WSH,Jonas Valanciunas,17,C,"7' 0""",270,"$9,900,000",32,1992-05-06,"Utena, Lithuania",Starter
+560,WSH,Tristan Vukcevic,00,PF,"7' 0""",225,"$2,424,892",21,2003-03-11,"Siena, Italy",--
+0,FA,Gordon Hayward,--,SF,"6' 7""",225,--,34,1990-03-23,"Indianapolis, Indiana",--
+1,FA,Evan Fournier,--,SG,"6' 6""",205,--,31,1992-10-29,"Saint-Maurice, France",--
+2,FA,Markelle Fultz,--,PG,"6' 4""",209,--,26,1998-05-29,"Upper Marlboro, Maryland",--
+3,FA,Davis Bertans,--,PF,"6' 10""",225,--,31,1992-11-12,"Valmiera, Latvia",--
+4,FA,Robert Covington,--,PF,"6' 7""",209,--,33,1990-12-14,"Bellwood, Illinois",--
+5,FA,Cedi Osman,--,SF,"6' 7""",230,--,29,1995-04-08,"Ohrid, North Macedonia",--
+6,FA,Jae Crowder,--,SF,"6' 6""",235,--,33,1990-07-06,"Villa Rica, Georgia",--
+7,FA,Wesley Matthews,--,SG,"6' 5""",220,--,37,1986-10-14,"San Antonio, Texas",--
+8,FA,JaVale McGee,--,C,"7' 0""",270,--,36,1988-01-19,"Flint, Michigan",--
+9,FA,Reggie Bullock,--,SF,"6' 6""",205,--,33,1991-03-16,"Baltimore, Maryland",--
+10,FA,Justin Holiday,--,SG,"6' 6""",180,--,35,1989-04-05,"Mission Hills, California",--
+11,FA,Patrick Beverley,--,PG,"6' 2""",180,--,35,1988-07-12,"Chicago, Illinois",--
+12,FA,Jordan Nwora,--,SF,"6' 8""",225,--,25,1998-09-09,"Buffalo, New York",--
+13,FA,Boban Marjanovic,--,C,"7' 4""",290,--,35,1988-08-15,"Zajecar, Serbia",--
+14,FA,Omer Yurtseven,--,C,"7' 0""",264,--,26,1998-06-19,"Istanbul, Turkey",--
+15,FA,Udoka Azubuike,--,C,"6' 10""",280,--,24,1999-09-17,"Lagos, Nigeria",--
+16,FA,Dennis Smith Jr.,--,PG,"6' 2""",205,--,26,1997-11-25,"Fayetteville, North Carolina",--
+17,FA,Yuta Watanabe,--,SF,"6' 9""",215,--,29,1994-10-13,"Yokohama, Japan",--
+18,FA,Damian Jones,--,C,"6' 11""",245,--,29,1995-06-30,"Baton Rouge, Louisiana",--
+19,FA,Thanasis Antetokounmpo,--,SF,"6' 7""",219,--,31,1992-07-18,"Athens, Greece",--
+20,FA,Oshae Brissett,--,SF,"6' 7""",210,--,26,1998-06-20,"Toronto, Ontario",--
+21,FA,Chimezie Metu,--,C,"6' 9""",225,--,27,1997-03-22,"Los Angeles, California",--
+22,FA,Aleksej Pokusevski,--,PF,"7' 0""",210,--,22,2001-12-26,"Belgrade, Serbia",--
+23,FA,Stanley Umude,--,G,"6' 6""",210,--,25,1999-04-12,"Portland, Oregon",--
+24,FA,Admiral Schofield,--,SF,"6' 5""",241,--,27,1997-03-30,"London, United Kingdom",--
+25,FA,Luka Samanic,--,PF,"6' 10""",227,--,24,2000-01-09,"Zagreb, Croatia",--
+26,FA,Bismack Biyombo,--,C,"6' 8""",255,--,31,1992-08-28,"Lubumbashi, Democratic Republic of the Congo",--
+27,FA,Danilo Gallinari,--,PF,"6' 10""",233,--,35,1988-08-08,"Sant'Angelo Lodigiano, Italy",--
+28,FA,Thaddeus Young,--,PF,"6' 8""",235,--,36,1988-06-21,"New Orleans, Louisiana",--
+29,FA,Mike Muscala,--,C,"6' 10""",240,--,33,1991-07-01,"St. Louis Park, Minnesota",--
+30,FA,Trent Forrest,--,PG,"6' 4""",210,--,26,1998-06-12,"Dothan, Alabama",--
+31,FA,Isaiah Thomas,--,PG,"5' 9""",185,--,35,1989-02-07,"Tacoma, Washington",--
+32,FA,Usman Garuba,--,PF,"6' 8""",220,--,22,2002-03-09,"Azuqueca de Henares, Spain",--
+33,FA,Ashton Hagans,--,PG,"6' 3""",190,--,24,1999-07-08,"Cartersville, Georgia",--
+34,FA,Harry Giles,--,C,"6' 11""",240,--,26,1998-04-22,"Winston-Salem, North Carolina",--
+35,FA,Dylan Windler,--,SF,"6' 6""",196,--,27,1996-09-22,"Indianapolis, Indiana",--
+36,FA,Ish Wainright,--,SF,"6' 6""",250,--,29,1994-09-12,"Kansas City, Missouri",--
+37,FA,Nico Mannion,--,PG,"6' 2""",190,--,23,2001-03-14,"Siena, Italy",--
+38,FA,Alondes Williams,--,G,"6' 4""",210,--,25,1999-06-19,"Milwaukee , Wisconsin",--
+39,FA,Drew Peterson,--,F,"6' 9""",205,--,24,1999-11-09,"Libertyville, Illinois",--
+40,FA,Xavier Moon,--,SG,"6' 2""",165,--,29,1995-01-02,"Goodwater, Alabama",--
+41,FA,Jerome Robinson,--,SG,"6' 4""",190,--,27,1997-02-22,"Raleigh, North Carolina",--
+42,FA,Daishen Nix,--,PG,"6' 5""",224,--,22,2002-02-13,"Anchorage, Alaska",--
+43,FA,Jordan Ford,--,PG,"6' 1""",175,--,26,1998-05-26,"Citrus Heights, California",--
+44,FA,TyTy Washington Jr.,--,PG,"6' 3""",197,--,22,2001-11-15,"Phoenix, Arizona",--
+45,FA,Olivier Sarr,--,C,"7' 0""",237,--,25,1999-02-20,"Niort, France",--
+46,FA,Greg Brown III,--,PF,"6' 7""",205,--,22,2001-09-01,"Dallas, Texas",--
+47,FA,Saben Lee,--,PG,"6' 2""",183,--,25,1999-06-23,"St. Louis, Missouri",--
+48,FA,Seth Lundy,--,SG,"6' 6""",220,--,24,2000-04-02,"Paulsboro, New Jersey",--
+49,FA,Terquavion Smith,--,SG,"6' 4""",165,--,21,2002-12-31,"Greenville, North Carolina",--
